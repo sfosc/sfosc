@@ -1,0 +1,14 @@
+baseURL = "https://sfosc.github.io/"
+languageCode = "en-us"
+title = "Sustainable Free and Open Source Communities"
+theme = "hugo-theme-learn"
+
+[params]
+author = "The Sustainable Free and Open Source Community"
+description = "Guidelines for building sustainable free and open source communities"
+disableBreadcrumb = false
+themeVariant = "blue"
+editURL = "https://github.com/sfosc/sfosc.github.io/edit/master/content/"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
