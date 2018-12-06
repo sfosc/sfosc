@@ -21,5 +21,6 @@ I want to give thanks to the many people who read drafts, bounced around ideas, 
   * Brad Henrickson, the best accountability buddy possible, and a true friend who reads your stuff on vacation.
   * John Gossman, who has given me insightful feedback not only on this, but on every project I've started in the last few years. I'm thankful to know him.
   * Katie Long, our lead counsel at Chef, who talked with me about my understandings of patent, copyright, trademark, and more.
+  * Kimberly Garmoe, who took an earlier idea on this topic I had and had the idea to frame things as positive rights
   * The Magical Microsoft Open Source Round Table, who were kind enough to listen to these ideas when they were just pages in my notebook, and challenge them in a spirited, delightful conversation.
 
