@@ -14,6 +14,7 @@ etc., you must purchase a support contract.
 
 * XenSource (very early on - moved to loose open core over time)
 * [Ntop](https://www.ntop.org/)
+* [Zabbix](https://www.zabbix.com)
 
 ### When should it be used?
 
