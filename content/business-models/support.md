@@ -13,7 +13,7 @@ etc., you must purchase a support contract.
 ### Who Uses it?
 
 * XenSource (very early on - moved to loose open core over time)
-* All sorts of companies for a minute :)
+* [Ntop](https://www.ntop.org/)
 
 ### When should it be used?
 
