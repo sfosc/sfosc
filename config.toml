@@ -7,7 +7,7 @@ theme = "hugo-theme-learn"
 author = "The Sustainable Free and Open Source Community"
 description = "Guidelines for building sustainable free and open source communities"
 disableBreadcrumb = false
-themeVariant = "blue"
+themeVariant = "sfosc"
 editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
 
 [outputs]
