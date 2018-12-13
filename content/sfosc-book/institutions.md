@@ -43,7 +43,7 @@ a sustainable community for long - it will continue to accumulate the good for
 itself, at the expense of others. Political theorists have spent a huge amount
 of effort trying to soften this blow, to no real avail.
 
-In 1973, a political philosopher named John Rawls dropped a bomb okjn the
+In 1973, a political philosopher named John Rawls dropped a bomb on the
 utilitarian viewpoint. He focused on the idea of the social contract as the
 basis for a just society with his "Theory of Justice".  Here is Rawls
 explaining his point of view:
@@ -71,7 +71,7 @@ principle”. He goes on to state we are not allowed to trade the first principl
 for the second. We cannot trade our basic liberties for any benefit, regardless
 of who it benefits. Further, fair equality of opportunity comes before the
 difference principle. We cannot give an advantage to one person at the cost of
-another persons fair access to opportunity. Finally: when we do have
+another person's fair access to opportunity. Finally: when we do have
 inequalities, they must be to the benefit of those with the least.
 
 Rawls then defined the "social and economic" benefits in terms of the "primary
