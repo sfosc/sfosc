@@ -36,7 +36,7 @@ framework by which the principles were created.
 
 We would love to have you help us evolve the principles, write new social contracts, and further explore what it means to create sustainable free and open source communities. There are a couple ways to get started:
 
-  * Send us a [pull request for this website](https://github.com/sfosc/sfosc.github.io)!
-  * Start a conversation by [filing an issue](https://github.com/sfosc/sfosc.github.io/issues)
+  * Send us a [pull request for this website](https://github.com/sfosc/sfosc)!
+  * Start a conversation by [filing an issue](https://github.com/sfosc/sfosc/issues)
 
 Is itself a Sustainable Free and Open Source Community, using the [Donation Social Contract]({{% ref "social-contracts/donation.md" %}}). The current leader is <a href="mailto:adam@stalecoffee.org">Adam Jacob</a>, but we'll be having our first election soon.
