@@ -15,6 +15,7 @@ software around it to convince their target market to make a purchase.
 * [Chef Software](https://chef.io)
 * [Puppet](https://puppet.com)
 * [Hashicorp](https://www.hashicorp.com)
+* [Hazelcast] (https://www.hazelcast.com)
 
 ### When should it be used?
 
