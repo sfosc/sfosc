@@ -6,12 +6,17 @@ weight = 1
 
 ## Preamble
 
-We are a unified body of individuals, scattered throughout the larger society, who work in support of the creation, evolution, use, and extension of free and open source software; while ensuring its longevity through meeting the needs of the present without compromising the ability of the community of the future to meet its own needs.
+We are a unified body of individuals, scattered throughout the larger society,
+who work in support of the creation, evolution, use, and extension of free and
+open source software; while ensuring its longevity through meeting the needs of
+the present without compromising the ability of the community of the future to
+meet its own needs.
 
 ## The Core Commitment
 
-We want the software to exist, to solve our problems, to continue to improve, and to be available for our use. Therefore, we commit that we will uphold these four freedoms for
-all, under all circumstances:
+We want the software to exist, to solve our problems, to continue to improve,
+and to be available for our use. Therefore, we commit that we will uphold these
+four freedoms for all, under all circumstances:
 
 * The freedom to run the program as you wish, for any purpose (freedom 0).
 * The freedom to study how the program works, and change it so it does your computing as you wish (freedom 1).

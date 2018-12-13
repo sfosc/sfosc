@@ -4,7 +4,9 @@ date: 2018-12-06T12:01:01-08:00
 weight: 15
 ---
 
-Tight Open Core is a model where the software has its primary functionality covered under an open source license (the "core"), but has direct (often critical) features that are only available under a proprietary license. 
+Tight Open Core is a model where the software has its primary functionality
+covered under an open source license (the "core"), but has direct (often
+critical) features that are only available under a proprietary license. 
 
 Take, for example, the feature of authentication and authorization. Some amount
 of these are critical for almost all software. In a Tight Open Core model, this

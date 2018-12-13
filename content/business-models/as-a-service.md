@@ -4,7 +4,9 @@ date: 2018-12-06T12:27:40-08:00
 weight: 25
 ---
 
-The As a Service model is when the software is released under an open source license, and available for anyone to run, while also being made available As a Service by the company. 
+The As a Service model is when the software is released under an open source
+license, and available for anyone to run, while also being made available As
+a Service by the company. 
 
 ### Who Uses it?
 

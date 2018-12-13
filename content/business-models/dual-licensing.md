@@ -26,7 +26,9 @@ create your own proprietary derivative, you retain the rights to remove the copy
 ### What kind of monetization is possible?
 
 Depending on the type of copyleft license, it ranges from simply selling identical
-software without copyleft terms (for embedding, as an example), to being allowed to run the software as a service, to being allowed to build fully proprietary distributions with enhanced functionality.
+software without copyleft terms (for embedding, as an example), to being
+allowed to run the software as a service, to being allowed to build fully
+proprietary distributions with enhanced functionality.
 
 In any case, it is used to create a functional monopoly on monetization for the company.
 
