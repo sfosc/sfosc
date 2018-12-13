@@ -56,7 +56,7 @@ amount of verification of identity, and proof of engagement with the community.
 Membership consists solely of individuals - there are no corporate community
 members.
 
-Guidelines for membership can be found at [MEMBERSHIP GUIDELINES](https://github.com/sfosc/sfosc/blog/master/MEMBERSHIP.md).
+Guidelines for membership can be found at [MEMBERSHIP GUIDELINES](https://github.com/sfosc/sfosc/blob/master/MEMBERSHIP.md).
 
 ### Voting
 
