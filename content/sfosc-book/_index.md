@@ -7,13 +7,23 @@ chapter = true
 
 # The Sustainable Free and Open Source Communities Book
 
-### Written by Adam Jacob
+### by Adam Jacob
 
-This book is the collection of thoughts and research that resulted in the [principles]({{% ref "principles" %}}), [governance models]({{% ref "governance-models" %}}), [business models]({{% ref "business-models" %}}), and [social contracts]({{% ref "social-contracts" %}}). It walks through how I analyzed the problem of building sustainable open source communities through the lens of John Rawls' Theory of Justice, and pulls from that analysis the items in the principles. 
+This book is the collection of thoughts and research that resulted in the
+[principles]({{% ref "principles" %}}), [business models]({{% ref
+"business-models" %}}), and [social
+contracts]({{% ref "social-contracts" %}}). It walks through
+how I analyzed the problem of building sustainable open source communities
+through the lens of John Rawls' Theory of Justice, and pulls from that analysis
+the items in the principles. 
 
-If you want to contribute to the conversation around Sustainable Free and Open Source Communities, it's the place to begin reading.
+If you want to contribute to the conversation around Sustainable Free and Open
+Source Communities, it's the place to begin reading.
 
-I want to give thanks to the many people who read drafts, bounced around ideas, or were kind enough to let me talk (and talk) about these ideas. They may or may not agree with what I wrote, but they were instrumental in my writing it, and without them it wouldn't exist.
+I want to give thanks to the many people who read drafts, bounced around ideas,
+or were kind enough to let me talk (and talk) about these ideas. They may or
+may not agree with what I wrote, but they were instrumental in my writing it,
+and without them it wouldn't exist.
 
   * Katie Bethell, who was willing to read Rawls to talk about this with me over dinner.
   * Jeff Hackert, a true friend. Without his validation and enthusasism, my own imposter syndrome would have stopped me before I started.
