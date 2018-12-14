@@ -44,7 +44,7 @@ have the responsibility for driving their own membership guidelines, and for
 making decisions based on rusts own core community value of consensus.
 A [significant amount of
 effort](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
-has done in to this structure, and in practice, it’s clearly working well.
+has gone in to this structure, and in practice, it’s clearly working well.
 However - the issue here is that, ultimately, if the core team itself should
 fail to represent the will of the Rust community, there would be no recourse.
 Other than participation, and a relatively opaque conception of what behavior
