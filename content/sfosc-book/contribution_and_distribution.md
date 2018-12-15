@@ -1,5 +1,5 @@
 +++
-title = "Contribution and Distribtion"
+title = "Contribution and Distribution"
 date = 2018-11-29T12:13:12-08:00
 weight = 35 
 +++
