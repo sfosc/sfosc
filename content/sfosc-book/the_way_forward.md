@@ -12,7 +12,7 @@ spell out the communities intentions, their relationship to monetization, and
 the principles upon which they will thrive: their community social contract.
 
 I don't pretend to know or have seen all the possible models, or have a perfect
-understanding of what happens when we build intentionalally sustainable open
+understanding of what happens when we build intentionally sustainable open
 source communities. My hope is that we can help each other, and the industry at
 large, understand that communities are about people coming together with common
 cause, and helping each other day by day. That the value of development in the
