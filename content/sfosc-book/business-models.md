@@ -327,7 +327,7 @@ the software to open source, the model ensures basic liberty completely, and it
 avoids any of the difficulties of drawing arbitrary lines around where the
 community stops and the commercial interests begin we see with free software
 islands or the open core models. Assuming the governance model meets our
-earlier criteria, there is nothing in the model that doesn’t meed both the
+earlier criteria, there is nothing in the model that doesn’t meet both the
 equal liberty principle and the difference principle. If, for whatever reason,
 you need to create a similarly proprietary distribution of the software, you
 are completely free to do so, and you can do so regardless of the circumstances
