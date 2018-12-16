@@ -65,12 +65,13 @@ fate?
   goods in our community. (If it wasn’t for their initial decision to create
   a community in the first place, there would be no community.)
 * *Developers*: people with the technical ability and desire to improve the
-  software. Either for their own benefit or the benefit of their employer.
+  software; for their own benefit, the benefit of their employer, the desire
+  to be active in the community or a combination of these.
 * *Contributors*: those who engage in the work of making the software better by
   not by writing code. They might file bug reports, compile release notes,
   write documentation, answer questions, etc. 
-* *Evangelists*: people who benefit by raising their own profile by telling
-  others about the benefits of the software.
+* *Champions*: people who promote the benefits of the software and benefit by
+  gaining visibility and authority.
 * *Non-Commercial Users*: folks who use the software to solve their own
   problems. Distinct in that they are not solving the problem of how to
   generate wealth with the software.
@@ -86,7 +87,7 @@ fate?
   Manage the lifecycle of the software on behalf of the consumer.
 * *Consulting Businesses*: sell implementation and strategic consulting around
   the software. 
-* *Venture Capitalists*: people that provide funding of businesses, in return
+* *Venture Capitalists*: people that provide funding of businesses in return
   for a stake in the business. Have the express desire that the business grows
   significantly in value.
 
