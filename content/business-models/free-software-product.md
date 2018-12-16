@@ -13,8 +13,8 @@ of the software itself, to create proprietary derivatives. If there is a 100%
 open source distribution, it uses different trademarks and naming conventions, and
 receives little or no direct support for users from the upstream.
 
-A conerstone of this model is that the company produces little or no proprietary
-software. It allows the community to collaborate, and makes it harder for proprietary
+A cornerstone of this model is that the company produces little or no proprietary
+software. It allows the community to collaborate and makes it harder for proprietary
 derivatives to thrive.
 
 ### Who Uses It
