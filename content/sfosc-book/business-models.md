@@ -146,7 +146,7 @@ basic liberty for software that is only useful for a fraction of our purpose.
 
 The open core models generally are paired with a non-copyleft license, since to
 do otherwise would compromise your ability to produce derivative works without
-copyright assignment. A particularly closed twist on this model is the one
+copyright assignment. A particularly close twist on this model is the one
 employed by [MongoDB](https://www.mongodb.com/): they require contributors to
 assign the rights to their copyright to MongoDB (the contributor also retains
 their rights, a change to standard copyright assignment). This allows MongoDB
