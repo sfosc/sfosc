@@ -127,12 +127,12 @@ Originally, Debian Developers were always considered as people who developed or
 packaged software for Debian. However, by [general resolution in
 2010](https://www.debian.org/News/2010/20101019), the guidelines were updated,
 and non-packaging contributors were welcomed in to the fold. To become
-a member, and therefore to have a vote, you need to be contributing to Debian,
-fill out an Application, have an existing Debian Developer Advocate for you via
-an email describing what the applicant has done for the project, have your
-identity verified, understanding of debian philosophy and procedures validated,
-and have examples of their work available. Assuming all goes well, the
-applicant is then considered a voting member of the project.
+a member, and therefore to have a vote, you need to: be contributing to Debian;
+fill out an Application; have an existing Debian Developer advocate for you via
+an email describing what you have done for the project; have your
+identity verified; have your understanding of debian philosophy and procedures
+validated; and have examples of your work available. Assuming all goes well,
+you are then considered a voting member of the project.
 
 Debian clearly meets Rawls' criteria, by resolving the issue with the Apache
 model - the institution that governs the community has broadly achievable

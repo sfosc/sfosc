@@ -31,7 +31,7 @@ have no mechanism to ensure its longevity. The Excel community is sustainable
 only so long as it is profitable to Microsoft. It's a sustainable software
 business, but not a sustainable community.
 
-This points to the most unique property of sustainable open source communities:
+This points to the most unique property of a sustainable open source community:
 longevity. It must able to produce the software for as long as it is of benefit
 to the community. As long as we ignore the cost of resources required to run
 the hardware, the software itself is an infinite resource. We don't have the

@@ -74,13 +74,13 @@ fate?
   generating wealth. Distinct in that they are not generating wealth from the
   software directly.
 * *Software Businesses*: entities that sell a build of the software, and
-  provides support for its use.
+  provide support for its use.
 * *As-A-Service Businesses*: distinct from software businesses, in that they
   provide the software as a service, over a network.
-* *Managed Service Businesses*: similar to an As-A-Service Business, but
-  provides the software as a service at the location of the consumers choice.
-  Manages the lifecycle of the software on behalf of the consumer.
-* *Consulting Businesses*: sells implementation and strategic consulting around
+* *Managed Service Businesses*: similar to As-A-Service Businesses, but
+  provide the software as a service at a location of the consumer's choice.
+  Manage the lifecycle of the software on behalf of the consumer.
+* *Consulting Businesses*: sell implementation and strategic consulting around
   the software. 
 * *Venture Capitalists*: people that provide funding of businesses, in return
   for a stake in the business. Have the express desire that the business grows
