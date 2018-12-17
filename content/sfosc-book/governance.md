@@ -170,7 +170,7 @@ for the project, but they do direct funds.)
 
 The technical committee is selected by a vote of the "Active Technical
 Contributors" (ATC). These are determined as a contribution approved to any of
-the Core OpenStack Projects, or if they are not a technical contributor, they
+the official OpenStack Projects, or if they are not a technical contributor, they
 can apply to the chair of the technical committee, who then brings it to a vote
 of the committee.  The technical committee has broad latitude for its own
 governance - it has [published a significant amount of rules over the
