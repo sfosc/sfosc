@@ -54,7 +54,8 @@ copyright consists of your work and theirs. We can now consider your version as
 contribute their modifications to the program back to you, so that you (and
 others) can benefit. They would then license their work back to you, under the
 same terms (Apache License 2.0). Assuming you accept it into your distribution
-of Kitten, the resulting release of Kitten is now copyright both you and them. 
+of Kitten, the resulting release of Kitten is covered by copyrights owned by
+both you and them.
 
 A corner case exists here we must address - you can assign your copyright to
 others. Assume in the story above, the upstream might decide that, in order to

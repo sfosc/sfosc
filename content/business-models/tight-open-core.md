@@ -35,8 +35,8 @@ be proprietary.
 
 ### Does this model help create a Sustainable Free and Open Source Community?
 
-No. While there is evidence it is more effective as a business model than its
-cousin, [loose open core]({{% ref "business-models/loose-open-core" %}}). The
+No. There is evidence it is more effective as a business model than its cousin,
+[loose open core]({{% ref "business-models/loose-open-core" %}}). However, the
 dynamics of keeping vital functionality out of the core means that, should the
 community decide to replicate the feature, it is directly at odds with the company's
 monetization model.
