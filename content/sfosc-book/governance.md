@@ -72,7 +72,7 @@ Apache publishes an [organizational
 chart](https://www.apache.org/foundation/governance/orgchart) that is
 instructive here. They split the organizations governance into two parts - the
 corporate governance of the foundation itself, and the project governance for
-each Apache software project. The apache members, all of whom are individuals
+each Apache software project. The Apache members, all of whom are individuals
 with a single vote, elect a board of directors, who then appoint a president
 and corporate officers. For each project, the board creates and updates Project
 Management Committees (PMCs). The Chair of each PMC is appointed by the board.
@@ -111,7 +111,7 @@ The Debian Project is a community dedicated to the creation of a free software
 operating system, and it’s another example of democracy in open source
 development. It has two foundational documents: [The Debian Social
 Contract](https://www.debian.org/social_contract), which defines their
-principals, and contains the Debian Free Software Guidelines, which defines
+principles, and contains the Debian Free Software Guidelines, which defines
 what software is considered for distribution; and [The Debian
 Constitution](https://www.debian.org/devel/constitution), which describes the
 organizational and decision making structure for the project. In broad terms,
@@ -181,7 +181,7 @@ broad technical latitude.
 
 OpenStack takes steps to mitigate any individual company gaining control of the
 project (through their rules around Affiliation,) ensures that any modification
-the bylaws require a 2/3 vote (and modifications relating to membership classes
+to the bylaws require a 2/3 vote (and modifications relating to membership classes
 requires a vote by those membership classes), and various times when votes are
 required by the larger body of members.  Through the existence of the PTLs and
 the Technical Committee, OpenStack creates an internal model that is not that
@@ -231,7 +231,7 @@ least) - the community favors the other classes of member, ensuring that if
 their interests are in conflict with yours, they will never be seriously
 threatened. We’ve curtailed the rights of the individual members to increase
 the rights of the corporations. Put on the veil of ignorance, and imagine the
-difference between coming out the other side a Platinum Member versus and
+difference between coming out the other side a Platinum Member versus an
 Individual Member.
 
 Given this analysis, what are the attributes of a sustainable open source
