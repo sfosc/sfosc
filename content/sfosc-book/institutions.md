@@ -12,7 +12,7 @@ anarcho-syndicates form terms of their free association.
 
 Therefore, we need to design an institution that supports and governs the
 community, which is dedicated to creating the architecture of participation
-that ensures a thriving community. We need rules for our communities
+that ensures a thriving community. We need rules for our community's
 association. To do that, we can leverage Political Theory.
 
 Political theory is the study of the history, ethics, and legitimacy of

@@ -38,6 +38,6 @@ be proprietary.
 No. While there is evidence it is more effective as a business model than its
 cousin, [loose open core]({{% ref "business-models/loose-open-core" %}}). The
 dynamics of keeping vital functionality out of the core means that, should the
-community decide to replicate the feature, it is directly at odds with the companies
+community decide to replicate the feature, it is directly at odds with the company's
 monetization model.
 

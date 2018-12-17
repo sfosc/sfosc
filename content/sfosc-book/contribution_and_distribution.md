@@ -13,7 +13,7 @@ terms of service.
 
 (As an aside: these terms are not defined or enforced in the same way around
 the globe. Rather than have an intensive debate about the particulars of any
-given nations stance, I’ve stuck to the terms as widely understood in the
+given nation's stance, I’ve stuck to the terms as widely understood in the
 United States. While other nations might behave differently, for the terms of
 discussing what the attributes of a sustainable open source community are,
 I think they serve just fine.)
@@ -44,7 +44,7 @@ attribute:
   open source license.
 
 In the copyright model, each individual contributor retains their copyright
-over the work they have created. Lets say you create a piece of software called
+over the work they have created. Let's say you create a piece of software called
 "Kitten", and you decide to publish its source code under the terms of the
 Apache License 2.0, and create a binary distribution of the software under the
 same terms. Your work is useful, and someone else decides to modify the program

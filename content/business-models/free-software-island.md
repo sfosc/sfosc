@@ -44,5 +44,5 @@ as a service.
 
 Yes. The only risks in this model are that it only affirms the rights of the
 community within the island itself - it may result in the creation of more proprietary
-software, outside the communities sphere of influence. 
+software, outside the community's sphere of influence. 
 

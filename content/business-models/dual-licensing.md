@@ -7,7 +7,7 @@ weight: 20
 Dual Licensing is a model where the software is released under an open source
 license, almost always a [copyleft
 license](https://en.wikipedia.org/wiki/Copyleft), but has a single entity with
-full control of the softwares copyright. This enables the company to re-license the
+full control of the software's copyright. This enables the company to re-license the
 software as they see fit - either to sell it under a non-copyleft license, to
 run it as a service, or to sell propreitary versions, while restricting the rights of others to do the same.
 
