@@ -44,7 +44,8 @@ This implies that, to be sustainable open source community:
 * The software must be released under a Free and Open Source license.
 
 This could be a 'copyleft' license like the GNU General Public License (GPL),
-or a 'non-copyleft' license such as the Apache License.
+or a 'non-copyleft' license such as the Apache License. The specific license
+doesn't matter - only that it upholds the four freedoms.
 
 This is, of course, not quite enough. We want more than just basic liberty in
 our lives - the “whatsoever else we might want” part of Rawls conception of the
