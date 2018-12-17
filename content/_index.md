@@ -10,8 +10,8 @@ of Sustainable Free and Open Source Communities. We are organized around the
 development of a set of shared [principles]({{%ref "principles" %}}) that we
 believe lead to healthy, sustainable open source communities.
 
-Our conception of community is an expansive one - it covers developers, users,
-evangelists, venture capitalists - anyone who believes that software is better
+Our conception of community is an expansive one – it covers developers, users,
+evangelists, venture capitalists – anyone who believes that software is better
 when it is built in a community, and that communities are formed because of
 a shared understanding between people.
 
