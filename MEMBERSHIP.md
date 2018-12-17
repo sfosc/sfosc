@@ -13,3 +13,4 @@ GitHub ID.
 * Adam Jacob (adamhjk)
 * Karl Amrhein (karlamrhein)
 * Elias Secchi (eliassecchi)
+* Camille Moulin (camillem)
