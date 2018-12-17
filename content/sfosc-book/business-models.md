@@ -107,7 +107,7 @@ customers, with the need to provide proprietary differentiation across the
 product portfolio. The struggle here is usually that, for this model to work,
 you need to have a project that generates a high volume of users - which means
 the core product contains everything a user would need to be successful with
-the softwares primary use case. For Chef and Puppet, that primary use case is
+the software's primary use case. For Chef and Puppet, that primary use case is
 at scale configuration management - in both cases, you can run massive
 organizations, and solve huge configuration management problems, without
 needing to purchase anything from either Chef Software or Puppet Labs. In our
@@ -117,7 +117,7 @@ Software, or Puppet and Puppet Labs.
 
 Looking at things from our sustainable open source community perspective,
 things get murky. Clearly, the software that is open source fulfills the basic
-liberty; but in exchange for that softwares continued development, we trade
+liberty; but in exchange for that software's continued development, we trade
 some functionality (the enterprise features we build around the core) away from
 that basic liberty - we make it proprietary. The lines of our community are
 blurry: where does the Chef Community start, and Chef Software begin, when they

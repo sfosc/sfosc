@@ -4,7 +4,7 @@ date: 2018-12-06T12:49:15-08:00
 weight: 30
 ---
 
-Not really a "business model", but lets go with it anyway. The donations model is when 
+Not really a "business model", but let's go with it anyway. The donations model is when 
 the project sets up a system of donations, which are used to sustain the project.
 
 ### Who uses it?

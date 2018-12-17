@@ -21,7 +21,7 @@ and requires no effort to maintain over time.
 
 ### What kind of monetization is possible?
 
-It it's most pure form, such as Discourse, the software is always 100% free. That means
+In its most pure form, such as Discourse, the software is always 100% free. That means
 that, while there is often a single company offering it as a service, the community
 itself is free to do so as well. 
 

@@ -11,7 +11,7 @@ direction of the project. I see three common models:
 1. Self organizing with loose consensus, as best seen in the Rust community.
 1. Democracies, represented by the Apache Foundation, The Debian Project, and OpenStack.
 
-How does each stack up to Rawls principles?
+How does each stack up to Rawls' principles?
 
 The dictatorship model has an individual, often the founder, holding 100% of
 the authority over the projects direction. Usually they then delegate
@@ -22,7 +22,7 @@ Yet the power in these models is fixed: the leader holds ultimate power. The
 community puts its faith in the judgement of the leader.
 
 The advantage of this model is often perceived to be streamlined decision
-making, and a focusing on the founders moral authority over their work as the
+making, and a focusing on the founders' moral authority over their work as the
 most legitimate way to decide the projects direction. Taken through Rawls
 lense, though, it is hard to advocate for this type of leadership. While it may
 be efficient at breaking ties, or resolving dispute, it clearly denies the
@@ -41,7 +41,7 @@ open source. Rust consists of several teams, with ultimate authority resting in
 the "core team". This group is responsible for creating "sub-teams" that focus
 on particular areas, each led by a member of the core. The sub-teams themselves
 have the responsibility for driving their own membership guidelines, and for
-making decisions based on rusts own core community value of consensus.
+making decisions based on Rust's own core community value of consensus.
 A [significant amount of
 effort](https://github.com/rust-lang/rfcs/blob/master/text/1068-rust-governance.md)
 has gone in to this structure, and in practice, it’s clearly working well.
@@ -134,7 +134,7 @@ identity verified, understanding of debian philosophy and procedures validated,
 and have examples of their work available. Assuming all goes well, the
 applicant is then considered a voting member of the project.
 
-Debian clearly meets Rawls criteria, by resolving the issue with the Apache
+Debian clearly meets Rawls' criteria, by resolving the issue with the Apache
 model - the institution that governs the community has broadly achievable
 membership, which then confers the ability to gain access to positions of power
 within the community, including the ultimate authority conveyed by the project,
@@ -200,7 +200,7 @@ participation requirements: $500,000 a year (with a 3 year commitment), and
 gold is 0.025% of revenue with a minimum of $50,000 and a maximum of $200,000
 per year. Essentially, the foundation takes in capital in return for the
 ability to have influence over the issuance of the OpenStack Trademarks,
-influence on decision making for the foundations budget, and the election of
+influence on decision making for the foundation's budget, and the election of
 officers.
 
 Since all work done by the OpenStack Core must be licensed as Apache 2.0, we
@@ -222,7 +222,7 @@ have more weight than Gold or Individual, respectively). Clearly, the bar to
 achieving Platinum membership is not equally available, and the influence
 purchased is significant. 
 
-While this is enough to disqualify the model, it is also clear that the boards
+While this is enough to disqualify the model, it is also clear that the board's
 structure fails to address the difference principle. Imagine you are an
 individual contributor who believes the status quo structure of OpenStack to be
 unjust as I have just described it, and who then decides to lobby for a change
@@ -235,7 +235,7 @@ difference between coming out the other side a Platinum Member versus and
 Individual Member.
 
 Given this analysis, what are the attributes of a sustainable open source
-communities governance model?
+community's governance model?
 
 * Rules for membership must be published and adhered to.
 * Membership must be open to all classes of contributor to the community. It
@@ -262,7 +262,7 @@ of successful technical communities:
 In addition to governance models, the other practical obstacle to participation
 is the interpersonal behavior of the community itself. Imagine that, while we
 adopt all of the rules above, we require that members acquiesce to existing
-members abusive language, harassment, racism, etc. In this case, we would fail
+members' abusive language, harassment, racism, etc. In this case, we would fail
 to provide equal opportunity of access - you’re allowed to join, but only if
 you’re willing to suffer our withering attacks. So we can add one more
 attribute to a sustainable open source community:

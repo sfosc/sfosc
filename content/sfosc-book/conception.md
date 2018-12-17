@@ -17,7 +17,7 @@ sustainable economic development.
 
 When I say “free and open source software”, I mean it in the terms defined by
 the [Free Software Foundation](https://www.gnu.org/philosophy/free-sw.en.html)
-and the [Open Source Initiatives Open Source
+and the [Open Source Initiative's Open Source
 Definition](https://opensource.org/osd). While all Free Software is Open Source
 software, the inverse is not true. I use Open Source as the short form because
 it is the super-set of software communities that potentially fit my definition.

@@ -33,7 +33,7 @@ Rawls in 1983 at slim to none.) They are:
   your changes. Access to the source code is a precondition for this.
 
 By adopting the four freedoms as our foundational rights, we guarantee our
-communities basic liberty. Regardless of our position in the community, we will
+community's basic liberty. Regardless of our position in the community, we will
 always have access to our primary good. Anything less than the four freedoms
 and we could easily be in a position where we are locked out of the community.
 Where our basic desire goes unfulfilled. By agreeing to never trade away our

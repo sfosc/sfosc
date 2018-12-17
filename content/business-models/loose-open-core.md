@@ -42,7 +42,7 @@ Maybe. If we treat the core software as essentially a free software island with 
 single downstream derivative, then yes, assuming others are allowed to also build
 proprietary software around the core. 
 
-However, this is often murky - since the companies strategy depends on convincing
+However, this is often murky - since the company's strategy depends on convincing
 a segment of the population that they must purchase the proprietary software, it
 will be easy for the company to turn to other models, which may mean it is no
 longer sustainable by the community.

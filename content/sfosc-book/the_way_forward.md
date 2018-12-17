@@ -8,7 +8,7 @@ We can pull all of this together with set of of sustainable open source
 community principles - these are the guidelines we should follow if we want to
 create a sustainable open source community. Then we can create specific
 implementations of these principles for our communities - social contracts that
-spell out the communities intentions, their relationship to monetization, and
+spell out the communities' intentions, their relationship to monetization, and
 the principles upon which they will thrive: their community social contract.
 
 I don't pretend to know or have seen all the possible models, or have a perfect
