@@ -131,7 +131,7 @@ open source community is that it should be healthy, but not too healthy. In
 this mindset, the value of my open source software is solely as a funnel to my
 proprietary software. Nothing more. It breaks my heart.
 
-I want to circle my own square. I want to find a way to no longer be in tension
+I want to square my own circle. I want to find a way to no longer be in tension
 with my community. I want every dollar of revenue I generate to feed and
 sustain it. I want to generate venture capital sized returns. I want my
 business to thrive not in spite of its community, but *because* of its
