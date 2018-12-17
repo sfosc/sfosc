@@ -14,3 +14,4 @@ GitHub ID.
 * Karl Amrhein (karlamrhein)
 * Elias Secchi (eliassecchi)
 * Camille Moulin (camillem)
+* Daniel Thompson-Yvetot (nothingismagick)
