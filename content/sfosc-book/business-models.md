@@ -236,7 +236,10 @@ A similarly tested strategy is the support model. An example of this model was
 the relationship between XenSource and Xen. Xen is an open source hypervisor
 originally built by researchers at the University of Cambridge, along with
 industry collaborators. XenSource was founded to commercialize the open source
-Xen code. Over time, XenSource [moved to being a loose open core](https://www.brianmadden.com/opinion/A-brief-history-of-Xen-and-XenSource)
+Xen code, [and initially offered only paid support for the
+hypervisor](https://www.brianmadden.com/opinion/A-brief-history-of-Xen-and-XenSource).
+Over time, XenSource [moved to being a loose open
+core](https://www.brianmadden.com/opinion/A-brief-history-of-Xen-and-XenSource)
 company. The hypervisor itself remained free, but XenSource (and Citrix, after
 their aquisition of XenSource in 2007) built proprietary products
 that sat on top of it designed to appeal to the large enterprise. This is
