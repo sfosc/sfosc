@@ -12,6 +12,7 @@ a Service by the company.
 
 * [Discourse](https://discourse.org)
 * [MongoDB](https://mongodb)
+* [WordPress](https://wordpress.org/)
 
 ### When should it be used?
 
