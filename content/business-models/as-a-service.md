@@ -11,7 +11,7 @@ a Service by the company.
 ### Who Uses it?
 
 * [Discourse](https://discourse.org)
-* [MongoDB](https://github.com/mongodb/mongo)
+* [MongoDB](https://www.mongodb.com/)
 * [WordPress](https://wordpress.org/)
 
 ### When should it be used?
