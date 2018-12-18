@@ -233,13 +233,14 @@ it can be completed.
 ### Support
 
 A similarly tested strategy is the support model. An example of this model was
-the relationship between XenSource and Xen. Xen is an opensource hypervisor,
-and XenSource was created as a mechanism for users to pay for support. [Over
-time, XenSource moved to being a loose open
-core](https://www.brianmadden.com/opinion/A-brief-history-of-Xen-and-XenSource)
-company - the hypervisor itself remained free, but XenSource built products
-that sat on top of it, designed to appeal to the large enterprise. This is
-a common transition with the support only model: since the hope is that your
+the relationship between XenSource and Xen. Xen is an open source hypervisor
+originally built by researchers at the University of Cambridge, along with
+industry collaborators. XenSource was founded to commercialize the open source
+Xen code. Over time, XenSource [moved to being a loose open core](https://www.brianmadden.com/opinion/A-brief-history-of-Xen-and-XenSource)
+company. The hypervisor itself remained free, but XenSource (and Citrix, after
+their aquisition of XenSource in 2007) built proprietary products
+that sat on top of it designed to appeal to the large enterprise. This is
+a common transition with the support-only model: since the hope is that your
 software will be useful, and will continue to improve, the business model of
 selling support is directly at odds with the user experience of the software.
 As we make it easier to use, we also make the need for support lower. As
@@ -247,9 +248,15 @@ a result this model has historically never been sustainable alone, if the goal
 is to drive significant amounts of capital into the software. It instead morphs
 into an open core strategy (by far the most common) or into a free software
 product strategy. Clearly, the support model by itself meets all the
-requirements of a sustainable open source community, but might not result in
-a sustainable business strategy, depending on the growth requirements of the
-business.
+requirements of a sustainable open source community, at least for the core
+project, but might not result in a sustainable business strategy, depending
+on the growth requirements of the business or other ecosystem dynamics.
+
+Citrix appears to have recognized this over time, as they announced that the
+proprietary components built on top of the Xen project would
+be released as open source on [June 24, 2013](https://xenserver.org/about-xenserver-open-source.html).
+The community reaction was mixed, and one group announced that they would
+[fork the XenServer code in 2017, creating XCP-ng](https://medium.com/@marc.pezin/xcp-ng-an-open-source-alternative-to-xenserver-29a7dc876af4).
 
 ### Free Software Product
 
