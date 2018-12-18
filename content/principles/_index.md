@@ -33,8 +33,9 @@ four freedoms for all, under all circumstances:
 * All positions of authority in the project must be, directly or indirectly, the result of a vote.
 * We must have a strong code of conduct, with clear, fair enforcement mechanisms.
 * Any patents included in the software must be granted under the terms of the open source license.
-* All contributors must retain their copyright, unless the software is being managed by a foundation for the purposes of license enforcement
+* All contributors must retain their copyright, unless the software is being managed by a foundation for the purposes of license enforcement.
 * All contributors intending to have their work incorporated into a distribution must contribute their work under the same terms as the software license they received it under.
 * Any commercial activity around the software must further the sustainability of the community, and the potential for commercial benefit must be available to all.
-* The incentives in any commercial model must bend away from the creation of proprietary downstream software
+* The incentives in any commercial model must bend away from the creation of proprietary downstream software.
+* All software must be developed with security in mind to avoid introducing vulnerabilities across the open source ecosystem.
 
