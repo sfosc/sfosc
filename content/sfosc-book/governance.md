@@ -155,7 +155,7 @@ which define how the project and the non profit foundation that administers it
 will function. Technical decision making is done through an elected technical
 committee, which has broad leverage over the day to day decision making of the
 project. The foundation itself is overseen by a board whose membership includes
-indviduals and two levels of coporate sponsorship ("gold" and "platinum"). The
+indviduals and two levels of corporate sponsorship ("gold" and "platinum"). The
 corporate membership types are fixed in the bylaws of the foundation, and both
 have capital and contribution requirements. Individual membership is made
 through an application process to the project Secretary, with simple
