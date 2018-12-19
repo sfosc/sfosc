@@ -7,7 +7,10 @@ weight = 30
 Lets start by evaluating how to provide fair equality of opportunity for the
 direction of the project. I see three common models: 
 
-1. Dictatorships, such as Linux, Python, and Chef. 
+1. Dictatorships, such as Linux, Python (before the resignation of
+Guido van Rossum and the
+[adoption](https://discuss.python.org/t/python-governance-vote-december-2018-results/546)
+of a steering council model), and Chef.
 1. Self organizing with loose consensus, as best seen in the Rust community.
 1. Democracies, represented by the Apache Foundation, The Debian Project, and OpenStack.
 
