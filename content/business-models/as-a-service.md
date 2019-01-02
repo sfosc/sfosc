@@ -34,7 +34,10 @@ used to create a monopoly on offering the software as a service.
 
 ### Does this model help create a Sustainable Free and Open Source Community?
 
-Maybe. With the example of Discourse above, the answer is yes. The community is 
-sustained through the service, but any member of the community would be free to
-compete. With any model that uses dual licensing combined with aggressive copyleft,
-or non-free licenses, it trades the [fundamental liberties in the core commitment]({{% ref "principles" %}}) for revenue.
+Maybe. Discourse is an example of a sustainable community because the project is
+financed by the service but any member of the community would be free to compete.
+However, projects that protect the hosting organization from competition through a
+[dual license model]{{{% ref "business-models/dual-licensing" %}}} are unlikely to
+have sustainable open source communities due to the unequal participation between
+the controlling entity and other collaborators. Such approaches do not adhere to the
+sustainability principles that are advocated in [the core commitment]({{% ref "principles" %}}).
