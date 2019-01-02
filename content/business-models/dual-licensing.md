@@ -34,5 +34,4 @@ In any case, it is used to create a functional monopoly on monetization for the 
 
 ### Does this model help create a Sustainable Free and Open Source Community?
 
-No. It trades the [fundamental liberties in the core commitment]({{% ref "principles" %}}) in exchange for revenue.
-
+Unlikely. Though this model protects the fundamental liberties guaranteed by free and open source software, it does not adhere to the sustainability principles necessary for equal collaboration that are advocated in [the core commitment]({{% ref "principles" %}}). Because a single entity controls the project sufficient to offer the proprietary license, it is unlikely that the open source community would be self-sustaining without the participation of that controlling entity.
