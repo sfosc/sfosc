@@ -20,7 +20,7 @@ before they joined a foundation (the CNCF in this case).
 
 ### When should it be used?
 
-If the project will have many collaborators, often large insitutional ones,
+If the project will have many collaborators, often large institutional ones,
 then a free software island may be the best home for it. While being on a free
 software island does not guarantee this kind of collaboration, it is designed 
 for it.
