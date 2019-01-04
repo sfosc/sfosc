@@ -24,7 +24,7 @@ project is successful, it leads to a large funnel of users that can then be
 sold the proprietary software.
 
 If the core of the software has broad applicability to a wide market, and you
-can envision a proprietary product targeted at some segement of the market, this
+can envision a proprietary product targeted at some segment of the market, this
 model can work well.
 
 ### What kind of monetization is possible?
