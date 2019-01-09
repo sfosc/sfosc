@@ -67,7 +67,7 @@ fate?
 * *Developers*: people with the technical ability and desire to improve the
   software; for their own benefit, the benefit of their employer, the desire
   to be active in the community or a combination of these.
-* *Contributors*: those who engage in the work of making the software better by
+* *Contributors*: those who engage in the work of making the software better but
   not by writing code. They might file bug reports, compile release notes,
   write documentation, answer questions, etc. 
 * *Champions*: people who promote the benefits of the software and benefit by
