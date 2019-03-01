@@ -343,6 +343,14 @@ you need to create a similarly proprietary distribution of the software, you
 are completely free to do so, and you can do so regardless of the circumstances
 you start out in. 
 
+### Social Purpose Company
+
+An up-and-coming business model is competing head-to-head with regular technology offerings, but enshrining into the articles of incorporation the beliefs and philosophy of the free software movement. Purism, SPC. is the best example of this legal structure, a [Social Purpose Company](https://puri.sm/about/social-purpose/). This model allows for a company to sell competing products, hardware, software, and even services, that are equivalent to proprietary company offerings, but are rooted in the unwavering social values we free software supporters want. 
+
+This model allows for all funds to be used to advance social good in technology, and have large enough revenues to compete on an even and fair playing field.
+
+If the SPC forms with a legal filing that lists "all software will be released under a free software license" then you can rest-assured that all code will be released under an acceptable license, as it becomes a legal requirement for the SPC to follow its articles of incorporation.
+
 ### Sustainable models
 
 What attributes can we pull from this analysis? When it comes time to consider
