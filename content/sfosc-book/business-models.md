@@ -1,7 +1,7 @@
 +++
 title = "Business Models"
 date = 2018-11-29T12:13:12-08:00
-weight = 40 
+weight = 40
 +++
 
 From the perspective of creating sustainable open source communities, clearly
@@ -37,7 +37,9 @@ is increasingly proprietary software (Datastax Enterprise, or DSE) - it looks
 at the value provided by Cassandra, and builds value on top of it. In their own
 words:
 
-> DSE goes beyond Apache Cassandra, delivering twice the performance and half the latency of open source Cassandra, as well as simplified operations management.
+> DSE goes beyond Apache Cassandra, delivering twice the performance and half
+> the latency of open source Cassandra, as well as simplified operations
+> management.
 
 The combination of Apache Cassandra being under the permissive Apache 2.0
 license means that everyone is free to use the software, and to incorporate it
@@ -52,7 +54,7 @@ isn’t being used to further our sustainable open source community anymore. Thi
 means that the model passes all of Rawls tests of fairness from the perspective
 of the island itself: it doesn’t constrain our basic liberty, it is equally
 applied to everyone, and whatever inequality might exist bends toward those
-with the least. 
+with the least.
 
 It has an unfortunate side effect, though: by segregating the community
 responsibility on the island, it creates a dynamic that the downstream
@@ -65,7 +67,7 @@ community core, plus the benefit of their proprietary focus. An example is the
 Apache Hadoop ecosystem, which generated two public companies, Cloudera and
 Hortonworks - who merged as public companies at a 60/40 level. Cloudera was the
 more proprietary of the two, and took a significantly larger share of the
-market value, while clearly contributing less to the core of Hadoop. 
+market value, while clearly contributing less to the core of Hadoop.
 
 A free software island with different dynamics is Linux. Linux uses the GNU
 Public License version 2 as the license for the software. The trademark is held
@@ -89,7 +91,7 @@ the overall system, ensuring that use of that component will always result in
 more contribution (or possible contribution) to the component through
 licensing, and encouraging the growth of businesses around the component, the
 kernel community is a deeply sustainable one (at least, from this point of
-view; it fails many of our earlier tests.) 
+view; it fails many of our earlier tests.)
 
 ### Loose Open Core
 
@@ -125,7 +127,7 @@ are so intermingled? If we draw a circle around the software, and say the
 community exists only there, we get the same results to the free software
 island model. If we extend it out to our full, expansive definition of
 community, then it’s plain it no longer fits, as we have traded basic liberty
-for more of the software. 
+for more of the software.
 
 ### Tight Open Core
 
@@ -160,27 +162,27 @@ yourself - the loophole that allows the company, and only the company, the
 ability to monetize the software effectively. It fails our test on every
 measure, since MongoDB holds rights for itself that the community can never
 match, regardless of where we draw the lines for the community around the open
-source software. 
+source software.
 
 ### As a Service
 
-With the rise of Software as a Service businesses, we have seen a similar rise
-in open source communities adopting this as a model. In its purest form, the
-software itself is made available under an open source license, which you could
-take and run on your own systems, at your own expense. You could also purchase
-the same from the business as a Software as a Service subscription. This was
-the original model for Chef Software, as an example. MongoDB offers their
-database as a service, Redis Labs offers their database as a service - the list
-is long. The challenge with this model as a primary method is around whether
-the value is captured by the community or not. Since the software in question
-is open source, if the license is permissive enough, anyone can make it
-available, with no obligations to contribute back. This becomes a variant of
-the free software island problem - the upstream software is clearly open
-source, but as we monetize the various services downstream, our incentive is to
-keep less and less of the services functionality free, if we can. The Affero
-GPL was created specifically to deal with this problem, and more recently you
-have attempts like the [Commons Clause](https://commonsclause.com/), which make
-a specific attempt to limit the ability for large service providers to monetize
+With the rise of Software as a Service (SaaS) businesses, we have seen a similar
+rise in open source communities adopting this as a model. In its purest form,
+the software itself is made available under an open source license, which you
+could take and run on your own systems, at your own expense. You could also
+purchase the same from the business as a Software as a Service subscription.
+This was the original model for Chef Software, as an example. MongoDB offers
+their database as a service, Redis Labs offers their database as a service - the
+list is long. The challenge with this model as a primary method is around
+whether the value is captured by the community or not. Since the software in
+question is open source, if the license is permissive enough, anyone can make it
+available, with no obligations to contribute back. This becomes a variant of the
+free software island problem - the upstream software is clearly open source, but
+as we monetize the various services downstream, our incentive is to keep less
+and less of the services functionality free, if we can. The Affero GPL was
+created specifically to deal with this problem, and more recently you have
+attempts like the [Commons Clause](https://commonsclause.com/), which make a
+specific attempt to limit the ability for large service providers to monetize
 open source communities. From a sustainability point of view, a model where the
 software is 100% open source, and the only proprietary software is around the
 specifics of a given service implementation meets all the criteria - anyone who
@@ -204,7 +206,7 @@ same terms applied to it. If it was, our analysis would be different - it would
 clearly pass this test, since there is equality in the application of the
 license.
 
-### Donations 
+### Donations
 
 Donations are a classic model of funding open source. A great modern example of
 this is [webpack](https://opencollective.com/webpack), which uses the [Open
@@ -256,10 +258,12 @@ project, but might not result in a sustainable business strategy, depending
 on the growth requirements of the business or other ecosystem dynamics.
 
 Citrix appears to have recognized this over time, as they announced that the
-proprietary components built on top of the Xen project would
-be released as open source on [June 24, 2013](https://xenserver.org/about-xenserver-open-source.html).
-The community reaction was mixed, and one group announced that they would
-[fork the XenServer code in 2017, creating XCP-ng](https://medium.com/@marc.pezin/xcp-ng-an-open-source-alternative-to-xenserver-29a7dc876af4).
+proprietary components built on top of the Xen project would be released as open
+source on [June 24,
+2013](https://xenserver.org/about-xenserver-open-source.html). The community
+reaction was mixed, and one group announced that they would [fork the XenServer
+code in 2017, creating
+XCP-ng](https://medium.com/@marc.pezin/xcp-ng-an-open-source-alternative-to-xenserver-29a7dc876af4).
 
 ### Free Software Product
 
@@ -284,7 +288,7 @@ produces an open source derivative with extra functionality. They then sell
 that distribution as commercial software - as a hosted service, and as on
 premises software. By committing 100% of the software they produce into open
 source, even when they create a proprietary distribution of a free software
-island, they become a de-facto new upstream. 
+island, they become a de-facto new upstream.
 
 No company has more mythology about why it is successful than Red Hat, and all
 of them have some element of truth to them. Over the course of writing this
@@ -341,7 +345,7 @@ earlier criteria, there is nothing in the model that doesn’t meet both the
 equal liberty principle and the difference principle. If, for whatever reason,
 you need to create a similarly proprietary distribution of the software, you
 are completely free to do so, and you can do so regardless of the circumstances
-you start out in. 
+you start out in.
 
 ### Sustainable models
 
@@ -414,5 +418,4 @@ benefit them. So the statement is that we must choose models that bend away
 from the creation of proprietary software - where "bend" implies that we may,
 in fact, not decide to completely remove that option, but instead to ensure the
 incentives for that option are bad (as the free software product model does).
-
 
