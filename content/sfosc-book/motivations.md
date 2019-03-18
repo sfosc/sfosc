@@ -1,28 +1,29 @@
 +++
 title = "Motivations"
 date = 2018-11-29T12:13:12-08:00
-weight = 10 
+weight = 10
 +++
 
 For my own part, I started my journey with Free Software in 1994, with a copy
-of Slackware I installed from floppies. I had been running a BBS for years, and
-I had become an operating system nerd because I wanted true multi-tasking.
-I was so proud of running a copy of OS/2 Warp. Slackware changed everything for
-me - I could see the source code, read the man pages. I could do anything
-I wanted. I was one of the first people in my circle with dial up internet - so
-I let my friends call my BBS, enter a passphrase, and then use Linux to dial
-out via my ISP. It was awesome, and I was all in on Linux.
+of Slackware I installed from floppies. I had been running a Bulletin board
+system (BBS) for years, and I had become an operating system nerd because I
+wanted true multi-tasking. I was so proud of running a copy of OS/2 Warp.
+Slackware changed everything for me - I could see the source code, read the
+man pages. I could do anything I wanted. I was one of the first people in my
+circle with dial up internet - so I let my friends call my BBS, enter a
+passphrase, and then use Linux to dial out via my ISP. It was awesome, and I
+was all in on Linux.
 
 That led me to a career as a systems administrator. I worked for a series of
 regional internet service providers, and then for a series of web companies.
 Throughout, the free software community supported me and mentored me. The Perl
-community, particularly on IRC, taught me how to be a programmer. The CFEngine
-and Puppet communities taught me how to think about automation and scale. No
-matter what was happening my career, the software communities I was a part of
-always supported me. When I struggled, there was always someone who was willing
-to help, to explain, to show me another path. I don't know what my life would
-be like without those communities in it - but I know that I would be less for
-their absence.
+community, particularly on Internet Relay Communications (IRC), taught me how to
+be a programmer. The CFEngine and Puppet communities taught me how to think
+about automation and scale. No matter what was happening in my career, the
+software communities I was a part of always supported me. When I struggled,
+there was always someone who was willing to help, to explain, to show me another
+path. I don't know what my life would be like without those communities in it -
+but I know that I would be less for their absence.
 
 I started an open source configuration management project called Chef a decade
 ago. It quickly grew beyond my own consulting company into a venture backed
@@ -58,9 +59,11 @@ deciding what is the core value, and what is proprietary. When we get it wrong,
 we either frustrate our community or hamper our ability to monetize.
 
 Here is an example. One recent company, who is in the Fortune 50, sent us an
-email that went something like this: 
+email that went something like this:
 
-> Congratulations! Chef is the exclusive configuration management system for us. However, we are not going to enter into a commercial relationship with you, because your business model is bullshit. Love, Massive Company.
+> Congratulations! Chef is the exclusive configuration management system for us.
+> However, we are not going to enter into a commercial relationship with you,
+> because your business model is bullshit. Love, Massive Company.
 
 I have many problems with that email, but here is the biggest one. That
 organization is going to use Chef to generate many, many billions of dollars of
