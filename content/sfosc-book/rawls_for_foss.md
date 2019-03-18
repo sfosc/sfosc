@@ -1,7 +1,7 @@
 +++
 title = "Setting up Rawls' Game"
 date = 2018-11-29T12:13:12-08:00
-weight = 25 
+weight = 25
 +++
 
 To begin, we have to decide what the primary goods are. What is the thing we
@@ -10,13 +10,15 @@ want, whatsoever else we might want. We can take for granted Rawls list
 sustainable open source community. In its place, a reasonable statement of the
 primary good we want is:
 
-> We want the software to exist, to solve our problem, to continue to improve, and to be available for our use.
+> We want the software to exist, to solve our problem, to continue to improve,
+> and to be available for our use.
 
 Since our primary good is software, it has the unique property of being
 infinite in amount. If we want more of it, we can simply... create more of it.
 This definition ensures we will not trade away our ability to be sustainable.
 
-Now we need to apply the equal liberty principle. What are the rights we won't trade?
+Now we need to apply the equal liberty principle. What are the rights we won't
+trade?
 
 It turns out that the [Four Freedoms set forth by Richard
 Stallman](https://www.gnu.org/philosophy/free-sw.en.html) (RMS) are a perfect
@@ -59,7 +61,7 @@ going to cause inequality. We need to ensure that those inequalities meet fair
 equality of opportunity and the difference principle. To do that, we need to
 have a better understanding of what the positions are we might occupy in our
 community. What are the different outcomes of the dice roll that determines our
-fate? 
+fate?
 
 * *Founders*: the original authors of the software. They begin with 100% of the
   goods in our community. (If it wasn’t for their initial decision to create
@@ -69,7 +71,7 @@ fate?
   to be active in the community or a combination of these.
 * *Contributors*: those who engage in the work of making the software better but
   not by writing code. They might file bug reports, compile release notes,
-  write documentation, answer questions, etc. 
+  write documentation, answer questions, etc.
 * *Champions*: people who promote the benefits of the software and benefit by
   gaining visibility and authority.
 * *Non-Commercial Users*: folks who use the software to solve their own
@@ -86,7 +88,7 @@ fate?
   provide the software as a service at a location of the consumer's choice.
   Manage the lifecycle of the software on behalf of the consumer.
 * *Consulting Businesses*: sell implementation and strategic consulting around
-  the software. 
+  the software.
 * *Venture Capitalists*: people that provide funding of businesses in return
   for a stake in the business. Have the express desire that the business grows
   significantly in value.
