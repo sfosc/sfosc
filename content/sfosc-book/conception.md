@@ -9,7 +9,11 @@ If we are to re-align the incentives, we have to start from the top, and that
 means definitions. When I say “Sustainable Open Source Community”, I mean the
 following:
 
-> A unified body of individuals, scattered throughout a larger society, who work in support of the creation, evolution, use, and extension of free and open source software; while ensuring its longevity through meeting the needs of the present without compromising the ability of the community of the future to meet its own needs.
+> A unified body of individuals, scattered throughout a larger society, who work
+> in support of the creation, evolution, use, and extension of free and open
+> source software; while ensuring its longevity through meeting the needs of the
+> present without compromising the ability of the community of the future to
+> meet its own needs.
 
 This definition comes from a combination of my own brain, the Merriam-Webster
 dictionary definition of community, and the broader understanding of
@@ -32,9 +36,9 @@ only so long as it is profitable to Microsoft. It's a sustainable software
 business, but not a sustainable community.
 
 This points to the most unique property of a sustainable open source community:
-longevity. It must able to produce the software for as long as it is of benefit
-to the community. As long as we ignore the cost of resources required to run
-the hardware, the software itself is an infinite resource. We don't have the
+longevity. It must be able to produce the software for as long as it is of
+benefit to the community. As long as we ignore the cost of resources required to
+run the hardware, the software itself is an infinite resource. We don't have the
 same struggle that we would have with, say, sustainable water usage. The
 software can continue to evolve and be used as long as it is needed.
 
@@ -55,5 +59,4 @@ a non-infinite downstream pool - we reserved some benefit for a subset of the
 community, my paying customers. As a result, we created a user community
 - which, while it may be sustainable as a software business, is not sustainable
 as a community resource.
-
 
