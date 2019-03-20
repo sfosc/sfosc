@@ -43,3 +43,7 @@ Maybe. With the example of Discourse above, the answer is yes. The community is
 sustained through the service, but any member of the community would be free to
 compete. With any model that uses dual licensing combined with aggressive copyleft,
 or non-free licenses, it trades the [fundamental liberties in the core commitment](/docs/principles/) for revenue.
+
+In the case of services that benefit from a network effect, there is also a
+temptation to make the open source software unnecessarily difficult to operate
+by others, while keeping the code technically open source.
