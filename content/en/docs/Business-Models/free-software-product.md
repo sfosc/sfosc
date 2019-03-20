@@ -47,3 +47,5 @@ as they see fit.
 Yes. By keeping 100% of the software open source, and not producing any proprietary
 features, the community is free to collaborate with the upstream. A 100% free downstream
 distribution can be created, and distributed - optionally with complete monetization.
+Note that there might be an incentive for Free Software Product companies to
+limit access to key documentation to support contract holders.
