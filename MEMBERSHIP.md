@@ -15,3 +15,4 @@ GitHub ID.
 * Elias Secchi (eliassecchi)
 * Camille Moulin (camillem)
 * Daniel Thompson-Yvetot (nothingismagick)
+* Marc Laporte (marclaporte)
