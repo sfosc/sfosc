@@ -8,7 +8,7 @@ In particular, we seek the following types of contributions:
 * ideas: participate in an issues thread or start your own to voice your idea
 * copy editing: contribute your expertise by helping us expand, clarify and proofing our content
 * code: improve the design, usability and functionality of the sfosc page
-* artwork: contribute graphics or any other artwork improving the presenation of sfosc
+* artwork: contribute graphics or any other artwork improving the presentation of sfosc
 
 Read this guide on how to do that.
 
@@ -22,7 +22,7 @@ Read this guide on how to do that.
 Our community mainly communicates over github issues threads. Please voice any idea,
 criticism or feedback in them so we can have an open discussion. Of course you can
 also feel free to contact any of our [members](https://github.com/sfosc/sfosc/blob/master/MEMBERSHIP.md)
-privately if you think this is neccesarry.
+privately if you think this is necessary.
 
 # How to Contribute Code
 **Prerequisites**: familiarity with [GitHub Pull Requests](https://help.github.com/articles/using-pull-requests)
