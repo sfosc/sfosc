@@ -24,7 +24,7 @@ without compromising the ability of the community of the future to meet its own
 needs.
 
 We want the software to exist, to solve our problems, to continue to improve,
-and to be avialable for our use. Therefore, we commit that we will uphold
+and to be available for our use. Therefore, we commit that we will uphold
 these four freedoms for all, under all circumstances:
 
   * The freedom to run the program as you wish, for any purpose (freedom 0).
@@ -75,7 +75,7 @@ election for Project Leader will be held.
 
 The Project Leader has broad authority to manage the project as they see fit, to
 delegate positions of authority, and to enact new governance rules. The
-exeception is ammending this social contract. This can only be done with a 3/4
+exception is amending this social contract. This can only be done with a 3/4
 vote of the membership.
 
 A new election can be held for the Project Leader at any time, regardless of
