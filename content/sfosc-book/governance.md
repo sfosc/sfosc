@@ -173,24 +173,24 @@ for the project, but they do direct funds.)
 
 The technical committee is selected by a vote of the "Active Technical
 Contributors" (ATC). These are determined as a contribution approved to any of
-the official OpenStack Projects, or if they are not a technical contributor, they
-can apply to the chair of the technical committee, who then brings it to a vote
-of the committee.  The technical committee has broad latitude for its own
+the official OpenStack Projects, or if they are not a technical contributor,
+they can apply to the chair of the technical committee, who then brings it to a
+vote of the committee.  The technical committee has broad latitude for its own
 governance - it has [published a significant amount of rules over the
 years](https://governance.openstack.org/tc/). Additionally, the project
 recognizes the role of Project Team Lead (PTL), which is elected from a similar
-membership process, for each project under the OpenStack umbrella, and has
-broad technical latitude. 
+membership process, for each project under the OpenStack umbrella, and has broad
+technical latitude. 
 
 OpenStack takes steps to mitigate any individual company gaining control of the
 project (through their rules around Affiliation,) ensures that any modification
-to the bylaws require a 2/3 vote (and modifications relating to membership classes
-requires a vote by those membership classes), and various times when votes are
-required by the larger body of members.  Through the existence of the PTLs and
-the Technical Committee, OpenStack creates an internal model that is not that
-different from the Apache model (separate technical decision making from the
-foundation itself, strong individual leaders with broad authority over their
-project.) 
+to the bylaws require a 2/3 vote (and modifications relating to membership
+classes requires a vote by those membership classes), and various times when
+votes are required by the larger body of members.  Through the existence of the
+PTLs and the Technical Committee, OpenStack creates an internal model that is
+not that different from the Apache model (separate technical decision making
+from the foundation itself, strong individual leaders with broad authority over
+their project.) 
 
 Most interesting for our purposes is the existence of multiple levels of voting
 on the OpenStack board itself, according to the varying membership levels, and

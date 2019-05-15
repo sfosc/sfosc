@@ -1,14 +1,14 @@
 +++
 title = "Designing a Sustainable Institution"
 date = 2018-11-29T12:13:12-08:00
-weight = 20 
+weight = 20
 +++
 
 What makes other communities sustainable? One common thread is that they all
 have institutions that support and govern them. They could be courts,
 legislatures, religious hierarchies, fraternal societies; the list goes on.
 What we don't find are sustainable communities without institutions. Even
-anarcho-syndicates form terms of their free association. 
+anarcho-syndicates form terms of their free association.
 
 Therefore, we need to design an institution that supports and governs the
 community, which is dedicated to creating the architecture of participation
@@ -29,7 +29,9 @@ the utilitarian view, then turn to the social contract.
 
 In 1907, Henry Sidgwick summarized the utilitarian view this way:
 
-> Society is rightly ordered, and therefore just, when its major institutions are arranged to achieve the greatest net balance of satisfaction summed over all the individuals belonging to it
+> Society is rightly ordered, and therefore just, when its major institutions
+> are arranged to achieve the greatest net balance of satisfaction summed over
+> all the individuals belonging to it
 
 The main idea is this: when there is more total satisfaction ("the good") in
 the society, things are just. This can (will?) happen at the expense of the
@@ -48,7 +50,15 @@ utilitarian viewpoint. He focused on the idea of the social contract as the
 basis for a just society with his "Theory of Justice".  Here is Rawls
 explaining his point of view:
 
-> Justice is the first virtue of social institutions, as truth is of systems of thought. A theory however elegant and economical must be rejected or revised if it is untrue; likewise laws and institutions no matter how efficient and well-arranged must be reformed or abolished if they are unjust. Each person possesses an inviolability founded on justice that even the welfare of society as a whole cannot override. For this reason justice denies the loss of freedom for some is made right by a greater good shared by others. It does not allow that the sacrifices on a few are outweighed by the larger sum of advantages enjoyed by the many.
+> Justice is the first virtue of social institutions, as truth is of systems of
+> thought. A theory however elegant and economical must be rejected or revised
+> if it is untrue; likewise laws and institutions no matter how efficient and
+> well-arranged must be reformed or abolished if they are unjust. Each person
+> possesses an inviolability founded on justice that even the welfare of society
+> as a whole cannot override. For this reason justice denies the loss of freedom
+> for some is made right by a greater good shared by others. It does not allow
+> that the sacrifices on a few are outweighed by the larger sum of advantages
+> enjoyed by the many.
 
 Rawls then sets out to define the principles of justice itself. How would we
 know that the rules that govern our society are, in fact, just? He comes up
@@ -98,7 +108,7 @@ improve our lot. Finally, we would mandate that those with the most cannot
 hoard their resources. Otherwise, our ability to improve will be limited by
 those with the most. From this position we can see if our system would be just:
 regardless of where you start, the game is fair. (Rawls theory is often
-summarized as "Justice as Fairness" for this reason.) 
+summarized as "Justice as Fairness" for this reason.)
 
 Rawls work has dominated political theory since he stated it. It forms the
 basis for almost all the study that has come after it, and depending on your

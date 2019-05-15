@@ -1,7 +1,7 @@
 +++
 title = "Contribution and Distribution"
 date = 2018-11-29T12:13:12-08:00
-weight = 35 
+weight = 35
 +++
 
 Having established the rules for governance and behavior for the community at
@@ -30,7 +30,7 @@ particular set of things comes from me, and has some terms attached that
 I desire. Terms of Service allow you to set terms on how someone uses your
 goods as a service (such as when you use a website, or use a managed service.)
 When you are allowed to take another persons work, and combine it to create
-your own work, you create what is known as a "derivative work". 
+your own work, you create what is known as a "derivative work".
 
 Starting with the clearest item, in Rawls terms, first: Patents. Given the
 requirements of meeting the four freedoms as a guarantee of our basic liberty,
@@ -71,7 +71,7 @@ source license (in a pinch, we could always fork the software). However, they
 do pose issues with fair equality of opportunity: since the ultimate copyright
 holder is the only one who can re-license the software, they reserve for
 themselves a level of status that is unattainable by any other persona in the
-community. 
+community.
 
 The other use case for copyright assignment is giving the software to
 a foundation, such as the Free Software Foundation. In this case, the intent is
@@ -93,7 +93,7 @@ distribution, with a shared origin, but now divergent from the upstream. How
 the community feels about this is one of the primary drivers of license choice
 - the copyleft licenses put the requirement for downstream works as a viral
 component of their liberty: you can take the work, you can create a derivative,
-but you must ensure the same freedoms for your derivative as the those you
+but you must ensure the same freedoms for your derivative as those you
 enjoyed. The non-copyleft licenses vary widely in what they cover, but the
 commonality is that they put no such requirement on the recipient: while you
 may decide to contribute, or you may decide to publish your work under similar

@@ -36,7 +36,7 @@ Instead, there are often downstream monetization of the software. For example:
 [DataStax](https://www.datastax.com) - Cassandra is upstream, and DataStax is
 a proprietary downstream for Cassandra.
 * [Kubernetes](https://kubernetes.io) has a myriad of downstream monetization - 
-companies with propriteary software offerings built on top, open source product extensions
+companies with proprietary software offerings built on top, open source product extensions
 such as [OpenShift](https://www.openshift.com), and cloud providers offering it
 as a service.
 
