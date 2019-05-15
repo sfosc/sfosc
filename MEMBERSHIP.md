@@ -17,3 +17,4 @@ GitHub ID.
 * Daniel Thompson-Yvetot (nothingismagick)
 * Vanessa Sochat (vsoch)
 * Chris Alfano (themightychris)
+* Nick Kellett (nickkellett)
