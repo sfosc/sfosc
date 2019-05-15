@@ -16,3 +16,4 @@ GitHub ID.
 * Camille Moulin (camillem)
 * Daniel Thompson-Yvetot (nothingismagick)
 * Vanessa Sochat (vsoch)
+* Chris Alfano (themightychris)
