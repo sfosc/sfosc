@@ -53,7 +53,7 @@ in the community requires following the Code of Conduct.
 Membership is **not a requirement** for participating in the community.
 Members may be consulted about governance of the community. For example through votes.
 The [CONTRIBUTING GUIDELINES](https://github.com/sfosc/sfosc/blob/master/CONTRIBUTING.md)
-explains several ways you can contribute regardless of membership.
+explain several ways you can contribute regardless of membership.
 
 Membership in the community is broad based, available to anyone who is 
 participating in any fashion. Requirements for membership involve a minimal
