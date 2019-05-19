@@ -10,9 +10,8 @@ to this file.
 To apply for membership, send a pull request to this file, adding your name and
 GitHub ID.
 
-We also like to encourage you to use the pull request's comment to introduce yourself.
-For example what got you interested in SFOSC, or some related work to talk about.
-This is optional though, please share only as much as you would like to.
+Please mention why you became interested in SFOSC and share some related work that you
+have undertaken. This is optional though, please share only as much as you would like to.
 
 Existing members will review your application.
 The aspects we look for currently are:
