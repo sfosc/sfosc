@@ -299,7 +299,7 @@ these things are real, but I think the root reason it works is because of the
 dynamics above. Red Hat has all the benefits of a proprietary software company:
 they sell 100% of the value of the software they produce, they provide
 absolutely no support to non-paying customers, and you cannot receive their
-valuable goods without paying them for the privilege. The also get all the
+valuable goods without paying them for the privilege. They also get all the
 benefits of being a free and open source company: development can happen in the
 open, they can build coalitions who contribute to moving the software forward
 (which improves their proprietary distribution,) and they can create new
