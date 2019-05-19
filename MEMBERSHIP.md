@@ -18,3 +18,4 @@ GitHub ID.
 * Vanessa Sochat (vsoch)
 * Chris Alfano (themightychris)
 * Nick Kellett (nickkellett)
+* Marc Laporte (marclaporte)
