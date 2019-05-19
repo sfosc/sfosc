@@ -5,8 +5,24 @@ to become a member. At the moment, the only privilege membership brings is being
 to vote for the project leader. And, of course, the glory of having your name appended
 to this file.
 
+## Applying
+
 To apply for membership, send a pull request to this file, adding your name and
-GitHub ID. 
+GitHub ID.
+
+We also like to encourage you to use the pull request's comment to introduce yourself.
+For example what got you interested in SFOSC, or some related work to talk about.
+This is optional though, please share only as much as you would like to.
+
+Existing members will review your application.
+The aspects we look for currently are:
+- Full name and GitHub ID, to serve as minimal verification of identity.
+- You have either engaged with SFOSC directly, or have related experience we can verify.
+  If this experience is not easily found from your GitHub profile, please mention it
+  as part of the pull request.
+
+Interested, but not sure if you meet the requirements?
+Go ahead and submit your pull request! We're glad you're interested and there to help.
 
 ## Members
 
