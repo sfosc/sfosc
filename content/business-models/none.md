@@ -4,16 +4,16 @@ date: 2019-01-09
 weight: 1
 ---
 
-This is typically the ur-form of sustainable Free and Open Source Communities.
+This is typically the starting point for Sustainable Free and Open Source Communities.
 The business model is to *not have a business model*. That is okay, because
 not every sustainable open source project needs or wants a business model.
 
 In this case the project has set up means and rules of collaboration, has a
 formal membership, usually without a formal position of authority or any other
-hierarchy but does **not** deal with monetary contributions.
+hierarchy and does **not** deal with monetary contributions.
 
 Sustainability in this non-model focuses on collaborator growth (quality and
-quantity) and shared responsibility to address it's biggest risk: contributor
+quantity) and shared responsibility to address its biggest risk: contributor
 churn.
 
 ### Who uses it?
@@ -25,7 +25,7 @@ churn.
 ### When should it be used?
 
 In the early phase of projects when it's not clear that the idea/implementation
-is a viable option in the free software eco system. Or when it's clear from the
+is a viable option in the free software ecosystem. Or when it's clear from the
 beginning, that the target audience is rather limited in size.
 
 Sometimes this model is also used as a way out of entrenched corporate
