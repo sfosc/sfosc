@@ -4,7 +4,7 @@ date: 2019-01-09
 weight: 1
 ---
 
-This is typically the starting point for Sustainable Free and Open Source Communities.
+This is a common archetype for Sustainable Free and Open Source Communities.
 The business model is to *not have a business model*. That is okay, because
 not every sustainable open source project needs or wants a business model.
 
