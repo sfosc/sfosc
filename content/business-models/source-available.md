@@ -1,7 +1,7 @@
 ---
 title: "Source Available"
 date: 2019-06-04
-weight: 1
+weight: 27
 ---
 
 While copyleft licenses (e.g., [Parity](https://paritylicense.com/), 
