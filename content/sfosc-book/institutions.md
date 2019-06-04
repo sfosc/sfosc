@@ -88,10 +88,10 @@ Rawls then defined the "social and economic" benefits in terms of the "primary
 social goods". He defines these as "things we might want, whatsoever else we
 might want". For Rawls, that meant things like freedom of movement, freedom of
 speech, and free choice of occupation. These are the things that we won't ever
-trade. After that, we want all kinds of things: access, prestige, money. We
-accept inequalities in those things only if they meet the conditions of fair
-equality of opportunity and the difference principle. They must be equally
-available to all, and benefit the least advantaged.
+trade. After that, we want all kinds of things, including: access, prestige,
+and money. We accept inequalities in those things only if they meet the
+conditions of fair equality of opportunity and the difference principle. They
+must be equally available to all, and benefit the least advantaged.
 
 He justifies these principles through designing a game using a device he called
 "the original position", but more commonly known as "the veil of ignorance".
