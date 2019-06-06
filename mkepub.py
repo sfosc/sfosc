@@ -33,9 +33,6 @@ for (root, dirs, files) in os.walk('content'):
     for f in oflist:
         md.insert(index, f)
         index += 1
-    pprint.pprint(oflist)
-    pprint.pprint(md)
-    raw_input('')
 pprint.pprint(md)
 
 print('Generating epub...')
