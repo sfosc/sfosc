@@ -22,3 +22,6 @@ means you get to vote for the project leader), add yourself to the [membership f
 If you want to propose changes, or new directions for the project, start or join
 a thread in an issue.
 
+## Sponsors
+
+Thanks to **[@adamhjk](https://github.com/adamhjk)** for sponsoring the `sfosc.org` domain.
