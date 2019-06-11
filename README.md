@@ -1,3 +1,9 @@
+[![content license CC BY-SA 4.0](https://badgen.net/badge/content%20license/CC%20BY-SA%204.0)](https://github.com/sfosc/sfosc/blob/master/LICENSE.md)
+[![code license MIT](https://badgen.net/badge/code%20license/MIT)](https://github.com/sfosc/sfosc/blob/master/LICENSE.md)
+[![discord](https://img.shields.io/discord/587972813302792217.svg?label=discord&logo=discord&logoColor=white)](https://discord.gg/nz5NC9q)
+
+![SFOSC](static/logo.png)
+
 Welcome to the SFOSC! This is the place to contribute content to the website,
 and collaborate on writing new social contracts, documenting business models,
 and more.
