@@ -16,7 +16,7 @@ distributed and shared under the same terms as the LICENSE.md file dictates.
 
 You should read our [Social Contract](https://github.com/sfosc/sfosc/blob/master/SOCIAL_CONTRACT.md) - it contains everything you need to know about how the community works.
 
-If you want to join the project as a voting member (which pretty much just
+If you want to join the project as a member (which pretty much just
 means you get to vote for the project leader), add yourself to the [membership file](https://github.com/sfosc/sfosc/blob/master/MEMBERSHIP.md).
 
 If you want to propose changes, or new directions for the project, start or join
