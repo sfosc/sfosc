@@ -4,9 +4,9 @@
 
 ![SFOSC](static/logo.png)
 
-Welcome to the SFOSC! This is the place to contribute content to the website,
-and collaborate on writing new social contracts, documenting business models,
-and more.
+Welcome to the Sustainable Free and Open Source Community!
+This is the place to contribute content to the website, and collaborate
+on writing new social contracts, documenting business models, and more.
 
 [You might rather see the site in its final, rendered form](https://sfosc.org) - it's easier to read that way. 
 
