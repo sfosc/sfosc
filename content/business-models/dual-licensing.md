@@ -13,7 +13,7 @@ run it as a service, or to sell proprietary versions, while restricting the righ
 
 ### Who Uses it?
 
-* [MySQL](https://mysql.com)
+* [MySQL](https://mysql.com) (as a secondary model)
 * [MongoDB](https://mongodb.com)
 
 ### When should it be used?
