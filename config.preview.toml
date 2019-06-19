@@ -1,4 +1,4 @@
-baseURL = "https://sfosc.org/"
+baseURL = "https://sfosc.org/preview/"
 languageCode = "en-us"
 title = "Sustainable Free and Open Source Communities"
 theme = "hugo-theme-learn"
@@ -9,8 +9,7 @@ description = "Guidelines for building sustainable free and open source communit
 disableBreadcrumb = false
 themeVariant = "sfosc"
 editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
-isPreview = false
+isPreview = true
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
-
