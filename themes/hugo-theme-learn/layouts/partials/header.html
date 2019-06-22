@@ -70,7 +70,7 @@
                  {{if $showBreadcrumb}}
                     {{ template "breadcrumb" dict "page" . "value" .Title }}
                  {{ else }}
-                   {{ .Title }} 
+                       {{ .Title }} 
                  {{ end }}
                   </span>
                 </div>
@@ -86,7 +86,9 @@
         {{ end }}
         <div id="body-inner">
           {{if and (not .IsHome) (not .Params.chapter) }}
-            <h1>{{.Title}}</h1>
+            {{if not .Params.hideTitle }}
+              <h1>{{.Title}}</h1>
+            {{end}}
           {{end}}
 
         {{define "breadcrumb"}}
