@@ -86,7 +86,8 @@
         {{ end }}
         <div id="body-inner">
           {{if and (not .IsHome) (not .Params.chapter) }}
-            {{if not .Params.hideTitle }}
+            {{/* Note, isset checks against force lowercased keys, so check against "rendertitle" */}}
+            {{if .Params.renderTitle | or (not (isset .Params "rendertitle")) }}
               <h1>{{.Title}}</h1>
             {{end}}
           {{end}}
