@@ -19,6 +19,7 @@ docker run --rm \
 
 # Go To Preview folder
 cd ./preview
+
 # Add changes to git.
 git add .
 
@@ -31,6 +32,3 @@ git commit -m "$msg"
 
 # Push preview repo from the detached head.
 git push origin HEAD:master
-
-# Come Back up to the Project Root
-cd ..
