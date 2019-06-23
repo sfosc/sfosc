@@ -13,14 +13,12 @@ if [ -z "$(which git)" ]; then
 fi
 
 # Make sure we're in the project root.
-# Note: this $0 only works if we call the script, so skip it for now.
-# toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
-toplevel="$(git rev-parse --show-toplevel)"
+toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 cd "${toplevel}"
 
 # Check we're not in a dirty state.
 dirty_files=$(git status --porcelain --ignore-submodules 2> /dev/null)
-if [ -z "$FORCE_UPDATE" ] && [ ! -z "dirty_files" ]; then
+if [ -z "$FORCE_UPDATE" ] && [ ! -z "$dirty_files" ]; then
   echo "Looks like you have uncommitted changes, aborting."
   echo "$dirty_files"
   exit 1
