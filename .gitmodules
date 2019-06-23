@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:sfosc/sfosc.github.io.git
 	branch = master
+[submodule "preview"]
+	path = preview
+	url = git@github.com:sfosc/preview.git
