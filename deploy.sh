@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 #
+# This script can be used both manually and from a CI
+# build pipeline with a deploy key set up.
+#
 # Variables:
 # - FORCE_UPDATE
 #	When not empty, will ignore uncomitted changes

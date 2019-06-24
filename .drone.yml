@@ -3,9 +3,13 @@ name: update-github-pages
 
 steps:
   - name: update-github-pages
+    # MIT License
+    # https://github.com/cibuilds/hugo
     image: cibuilds/hugo:0.55.6
     environment:
       FORCE_UPDATE: "yes"
+      # The deploy key for your github pages repository.
+      # See https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
       SSH_DEPLOY_KEY:
         from_secret: SSH_DEPLOY_KEY
     commands:
