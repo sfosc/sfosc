@@ -1,34 +1,59 @@
 #!/usr/bin/env bash
+#
+# Variables:
+# - FORCE_UPDATE
+#	When not empty, will ignore uncomitted changes
+#	an the git references being the same.
+#	Example: FORCE_UPDATE=y ./deploy.sh
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
+
+# Check our dependencies.
+if [ -z "$(which hugo)" ]; then
+	echo "Hugo must be installed and available in \$PATH"
+	exit 1
+fi
+if [ -z "$(which git)" ]; then
+	echo "Git must be installed and available in \$PATH"
+	exit 1
+fi
 
 # Make sure we're in the project root.
 toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
 cd "${toplevel}"
 
+# Check we're not in a dirty state.
+dirty_files=$(git status --porcelain --ignore-submodules 2> /dev/null)
+if [ -z "$FORCE_UPDATE" ] && [ ! -z "$dirty_files" ]; then
+  echo "Looks like you have uncommitted changes, aborting."
+  echo "$dirty_files"
+  exit 1
+fi
+
 # Force checkout the remote public master branch (detached).
 git submodule update --init --remote --checkout public || exit 1
 
-# Build the project with docker into the submodule.
-docker run --rm \
-	-v $(pwd):/src \
-	-v $(pwd)/public:/target \
-	--user $(id -u):$(id -g) \
-	klakegg/hugo:0.55.6 \
-	--config config.toml
+# Find source and target commit hash.
+source_sha="$(git rev-parse --verify HEAD)"
+target_sha="$(cat public/.HEAD)"
+echo "Source SHA = $source_sha"
+echo "Target SHA = $target_sha"
 
-# Go To Public folder
-cd public
+# When the target has a SHA reference, and they're the same, skip.
+if [ -z "$FORCE_UPDATE" ] && [ ! -z "$target_sha" ] && [ "$source_sha" == "$target_sha" ]; then
+  echo "Source and last built commit are the same. No need to update."
+else
+  # Build the project into the submodule.
+  hugo -s . -d ./public --config config.toml
 
-# Add changes to git.
-git add .
+  # Track the SHA we've built from.
+  echo "$(git rev-parse --verify HEAD)" > public/.HEAD
 
-# Commit changes.
-msg="manually rebuilding site `date`"
-if [ $# -eq 1 ]
-  then msg="$1"
+  # Go To public folder
+  cd ./public
+
+  # Push public repo from the detached head.
+  git add --all
+  git commit -m "Rebuilding site `date`"
+  git push --dry-run origin HEAD:master
 fi
-git commit -m "$msg"
-
-# Push source and build repos.
-git push origin HEAD:master
