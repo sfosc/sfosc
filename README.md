@@ -2,6 +2,7 @@
 [![code license MIT](https://badgen.net/badge/code%20license/MIT)](https://github.com/sfosc/sfosc/blob/master/LICENSE.md)
 [![discord](https://img.shields.io/discord/587972813302792217.svg?label=discord&logo=discord&logoColor=white)](https://discord.gg/nz5NC9q)
 [![SourceCred prototype](https://badgen.net/badge/SourceCred/prototype)](https://sfosc.org/sourcecred/prototype/)
+[![Greater Good Affirmation](https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg)](https://good-labs.github.io/greater-good-affirmation)
 
 ![SFOSC](static/logo.png)
 
