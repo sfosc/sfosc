@@ -100,12 +100,3 @@ a:hover {
 #sidebar hr {
     border-color: var(--MENU-SECTION-HR-color);
 }
-
-#preview-banner {
-    background: #F9E280;
-    border-radius: 5px;
-    text-align: center;
-    height: 3rem;
-    line-height: 3rem;
-    margin: 0.85rem 0;
-}

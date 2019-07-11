@@ -1,0 +1,27 @@
+kind: pipeline
+name: update-github-pages
+
+steps:
+  - name: update-github-pages
+    # MIT License
+    # https://github.com/cibuilds/hugo
+    image: cibuilds/hugo:0.55.6
+    environment:
+      # The deploy key for your github pages repository.
+      # See https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
+      SSH_DEPLOY_KEY:
+        from_secret: SSH_DEPLOY_KEY
+    commands:
+      # Store the secret deploy key.
+      - mkdir -p ~/.ssh && echo "$SSH_DEPLOY_KEY" > ~/.ssh/id_rsa && chmod 0600 ~/.ssh/id_rsa
+      # Find any SSH server key fingerprints from GitHub.
+      - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
+      # Configure git commit details as a bot.
+      - git config --global user.email "bot@sfosc.org"
+      - git config --global user.name "Deployment Bot"
+      # Call the deploy script.
+      - ./deploy.sh
+
+trigger:
+  event:
+    - push

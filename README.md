@@ -10,8 +10,7 @@ Welcome to the Sustainable Free and Open Source Community!
 This is the place to contribute content to the website, and collaborate
 on writing new social contracts, documenting business models, and more.
 
-The latest release is visible on https://sfosc.org - it's easier to read that way.<br/>
-The current `master` branch is visible on https://sfosc.org/preview
+The `master` branch is visible on https://sfosc.org - it's easier to read that way.
 
 To contribute, send a pull request. By doing so, you agree to have your content
 distributed and shared under the same terms as the LICENSE.md file dictates.

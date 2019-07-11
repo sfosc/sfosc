@@ -9,7 +9,6 @@ description = "Guidelines for building sustainable free and open source communit
 disableBreadcrumb = false
 themeVariant = "sfosc"
 editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
-isPreview = false
 
 [outputs]
 home = [ "HTML", "RSS", "JSON" ]
