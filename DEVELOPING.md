@@ -8,6 +8,50 @@ Brief overview:
 - Hosting: [GitHub pages](https://pages.github.com/)
 - Build automation: [drone.io](https://drone.io/)
 
+For hugo, we need an extended version that can handle sass processing. If you
+get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version) then you'll need to follow the instructions linked to install
+the extended version. I wound up doing this:
+
+```bash
+# Move to GOPATH google directory (create if doesn't exist)
+$ cd $GOPATH/src/github.com/google
+
+# Source code for latest release https://github.com/gohugoio/hugo/releases
+$ wget https://github.com/gohugoio/hugo/archive/v0.55.6.tar.gz
+
+# Extract, rename and clean up
+$ tar -xzvf v0.55.6.tar.gz && mv hugo-0.55.6/ hugo
+$ rm v0.55.6.tar.gz 
+$ cd hugo/
+
+# Install the sass processing library
+$ go get github.com/wellington/go-libsass
+
+# Install hugo with extended tag
+$ go install --tags extended
+
+# Verify new install is extended
+$ which hugo
+/home/vanessa/Documents/Dropbox/Code/Google/go/bin/hugo
+$ hugo version
+Hugo Static Site Generator v0.56.0-DEV/extended linux/amd64 BuildDate: unknown
+```
+
+Note to add docsy to the repository, we needed to clone with submodules too:
+
+```bash
+$ git clone --recurse-submodules --depth 1 https://github.com/google/docsy.git
+```
+
+Full instructions are [here](https://github.com/google/docsy).
+
+### Quick Tips
+
+ - Each header section can support a background color, if you look for block/cover, and
+then notice that I chose "blue."
+ - Each folder under [content/en/](content/en) can also support a featured-background.jpg. If you add it, it will magically show up. I removed them all (breakfast cereal?) in favor of a clean, blue background.
+
+
 ## Locally testing changes
 
 Most often you'll want to test changes before committing changes for pull requests.
