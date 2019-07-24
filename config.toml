@@ -34,8 +34,10 @@ editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
 copyright = "The SFOSC Authors"
 github_repo = "https://github.com/sfosc/sfosc"
 github_project_repo = "https://github.com/sfosc/sfosc" # related project repository
-gcs_engine_id = "010503388974132107851:lgyodfcxl6e" # Google Custom Search Engine ID.
-                
+
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+# gcs_engine_id = "010503388974132107851:lgyodfcxl6e"
+
 # privacy_policy = "https://policies.google.com/privacy"
 # Menu title if your navbar has a versions selector to access old versions of your site.
 # This menu appears only if you have at least one [params.versions] set.
