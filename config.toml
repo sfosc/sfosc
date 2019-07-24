@@ -111,6 +111,6 @@ no = 'Sorry to hear that. Please <a href="https://github.com/sfosc/sfosc/issues/
         desc = "Development takes place here!"
 [[params.links.developer]]
 	name = "Discord"
-	url = "https://discordapp.com/channels/587972813302792217/587972813856702476"
+	url = "https://discord.gg/nz5NC9q"
 	icon = "fab fa-discord"
         desc = "Chat with other project developers"
