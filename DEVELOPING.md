@@ -5,6 +5,7 @@ You might be interested in these procedures if you are interested in development
 
 Brief overview:
 - Static page generator: [hugo](https://gohugo.io/)
+- Hugo theme: [google/docsy](https://github.com/google/docsy)
 - Hosting: [GitHub pages](https://pages.github.com/)
 - Build automation: [drone.io](https://drone.io/)
 
