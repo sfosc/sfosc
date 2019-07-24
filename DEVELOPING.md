@@ -8,9 +8,30 @@ Brief overview:
 - Hosting: [GitHub pages](https://pages.github.com/)
 - Build automation: [drone.io](https://drone.io/)
 
-For hugo, we need an extended version that can handle sass processing. If you
-get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version) then you'll need to follow the instructions linked to install
-the extended version. I wound up doing this:
+## Dependencies
+
+### Submodules
+
+Aside from hugo, we're using the [google/docsy](https://github.com/google/docsy) theme.
+
+The theme is referenced as a git submodule. So you can make sure you have the correct version using:
+
+```sh
+# Update our submodules recursively, initializing as necessary.
+git submodule update --init --recursive
+```
+
+We are using recursive here as docsy uses git submodules for tracking further dependencies (currently bootstrap and font awesome).
+
+### Hugo extended
+
+For hugo, we need an extended version that can handle sass processing.
+If you get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version)
+then you'll need to follow the instructions linked to install the extended version.
+
+Keep in mind, if you have already installed a local hugo (non-extended) version you may need to uninstall it to avoid conflicts.
+
+I wound up doing this:
 
 ```bash
 # Move to GOPATH google directory (create if doesn't exist)
@@ -37,20 +58,29 @@ $ hugo version
 Hugo Static Site Generator v0.56.0-DEV/extended linux/amd64 BuildDate: unknown
 ```
 
-Note to add docsy to the repository, we needed to clone with submodules too:
+### Node and npm packages
 
-```bash
-$ git clone --recurse-submodules --depth 1 https://github.com/google/docsy.git
-```
+When creating production builds of the static website, docsy uses [PostCSS](https://gohugo.io/hugo-pipes/postcss/).
+As well as `autoprefixer`. Both of which should be installed from npm packages and require node to run.
 
-Full instructions are [here](https://github.com/google/docsy).
+You _may be able to_ avoid installing this, because it's not required for `hugo server` style development previews.
+But for a final build using `hugo` or `./deploy.sh` you will need them.
 
-### Quick Tips
+Make sure you have node and npm installed and run `npm install`.
+Note: as we've committed a `package-lock.json` file we recommend using npm over yarn.
 
- - Each header section can support a background color, if you look for block/cover, and
-then notice that I chose "blue."
+### Git
+
+You probably have git on your local machine, as previous steps require this.
+But it's worth noting when you're using docker containers or CI builds, git is a requirement.
+
+It's used for the hugo `enableGitInfo = true` setting.
+Which the docsy theme uses to add "last modified" footers based on the git history of the content files.
+
+## Quick Tips using the docsy theme
+
+ - Each header section can support a background color, if you look for block/cover, and then notice that I chose "blue."
  - Each folder under [content/en/](content/en) can also support a featured-background.jpg. If you add it, it will magically show up. I removed them all (breakfast cereal?) in favor of a clean, blue background.
-
 
 ## Locally testing changes
 
