@@ -95,10 +95,14 @@ Or alternatively using a docker equivalent:
 docker run --rm -ti \
 	-p 1313:1313 \
 	-v $(pwd):/src \
-	klakegg/hugo:0.55.6 server
+	-w /src \
+	-u $(id -u):$(id -g) \
+	cibuilds/hugo:0.55.6 hugo server --bind 0.0.0.0
 ```
 
 This will set up a preview at http://localhost:1313/ with automatic reloading on changes.
+
+_Note: the `cibuilds/hugo` docker image does not include node, so it won't work for a final build._
 
 ## Deployments to `sfosc.org`
 
