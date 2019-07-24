@@ -31,7 +31,7 @@ description = "Guidelines for building sustainable free and open source communit
 disableBreadcrumb = false
 themeVariant = "sfosc"
 editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
-copyright = "The SFOSC Authors"
+copyright = "Adam Jacob and the SFOSC Contributors"
 github_repo = "https://github.com/sfosc/sfosc"
 github_project_repo = "https://github.com/sfosc/sfosc" # related project repository
 
