@@ -28,34 +28,17 @@ We are using recursive here as docsy uses git submodules for tracking further de
 For hugo, we need an extended version that can handle sass processing.
 If you get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version)
 then you'll need to follow the instructions linked to install the extended version.
-
 Keep in mind, if you have already installed a local hugo (non-extended) version you may need to uninstall it to avoid conflicts.
 
-I wound up doing this:
+We're currently using hugo v0.55.6/extended, you can find binaries on [the v0.55.6 release page](https://github.com/gohugoio/hugo/releases/tag/v0.55.6).
+Here you should select a `hugo_extended_` prefixed download built for your OS and make sure the binary is installed in one of your $PATH directories.
+In my case I downloaded `hugo_extended_0.55.6_Linux-64bit.tar.gz` and extracted the `hugo` binary to `~/.local/bin/hugo`.
 
-```bash
-# Move to GOPATH google directory (create if doesn't exist)
-$ cd $GOPATH/src/github.com/google
-
-# Source code for latest release https://github.com/gohugoio/hugo/releases
-$ wget https://github.com/gohugoio/hugo/archive/v0.55.6.tar.gz
-
-# Extract, rename and clean up
-$ tar -xzvf v0.55.6.tar.gz && mv hugo-0.55.6/ hugo
-$ rm v0.55.6.tar.gz 
-$ cd hugo/
-
-# Install the sass processing library
-$ go get github.com/wellington/go-libsass
-
-# Install hugo with extended tag
-$ go install --tags extended
-
-# Verify new install is extended
+```sh
 $ which hugo
-/home/vanessa/Documents/Dropbox/Code/Google/go/bin/hugo
+/home/username/.local/bin/hugo
 $ hugo version
-Hugo Static Site Generator v0.56.0-DEV/extended linux/amd64 BuildDate: unknown
+Hugo Static Site Generator v0.55.6-A5D4C82D2/extended linux/amd64 BuildDate: 2019-05-18T08:08:34Z
 ```
 
 ### Node and npm packages
