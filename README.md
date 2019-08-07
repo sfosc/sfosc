@@ -26,3 +26,11 @@ a thread in an issue.
 ## Sponsors
 
 Thanks to **[@adamhjk](https://github.com/adamhjk)** for sponsoring the `sfosc.org` domain.
+
+## Contributors
+
+Many thanks to the people who have contributed to this repository.
+
+![sfosc/sfosc contributors](https://sfosc.org/sourcecred/widgets/sfosc-sfosc-contributors.svg)
+
+_Generated using [SourceCred](https://sourcecred.io) data. [Explore the data](https://sfosc.org/sourcecred/prototype/)._
