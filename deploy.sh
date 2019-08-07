@@ -46,8 +46,14 @@ echo "Target SHA = $target_sha"
 if [ -z "$FORCE_UPDATE" ] && [ ! -z "$target_sha" ] && [ "$source_sha" == "$target_sha" ]; then
   echo "Source and last built commit are the same. No need to update."
 else
+  # Load the .git file contents into memory, as hugo's --cleanDestinationDir will break the submodule.
+  git_public_content="$(cat public/.git)"
+
   # Build the project into the submodule.
-  hugo -s . -d ./public --config config.toml
+  hugo -s . -d ./public --config config.toml --cleanDestinationDir
+
+  # Restore the .git file.
+  echo "$git_public_content" > public/.git
 
   # Track the SHA we've built from.
   echo "$(git rev-parse --verify HEAD)" > public/.HEAD
