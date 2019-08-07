@@ -20,6 +20,10 @@ if [ -z "$(which git)" ]; then
 	echo "Git must be installed and available in \$PATH"
 	exit 1
 fi
+if [ -z "$(which node)" ]; then
+  echo "Node must be installed and available in \$PATH"
+  exit 1
+fi
 if [ -z "$(which npm)" ]; then
   echo "NPM must be installed and available in \$PATH"
   exit 1
