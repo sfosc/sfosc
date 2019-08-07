@@ -5,7 +5,7 @@ steps:
   - name: update-github-pages
     # MIT License
     # https://github.com/klakegg/docker-hugo
-    image: klakegg/hugo:0.56.3-ext-alpine
+    image: klakegg/hugo:0.56.3-ext-debian
     environment:
       # The deploy key for your github pages repository.
       # See https://developer.github.com/v3/guides/managing-deploy-keys/#deploy-keys
