@@ -20,6 +20,10 @@ if [ -z "$(which git)" ]; then
 	echo "Git must be installed and available in \$PATH"
 	exit 1
 fi
+if [ -z "$(which npm)" ]; then
+  echo "NPM must be installed and available in \$PATH"
+  exit 1
+fi
 
 # Make sure we're in the project root.
 toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
@@ -49,6 +53,9 @@ echo "Target SHA = $target_sha"
 if [ -z "$FORCE_UPDATE" ] && [ ! -z "$target_sha" ] && [ "$source_sha" == "$target_sha" ]; then
   echo "Source and last built commit are the same. No need to update."
 else
+  # Make sure we have the PostCSS and autoprefix modules defined in our package-lock.json.
+  npm install
+
   # Load the .git file contents into memory, as hugo's --cleanDestinationDir will break the submodule.
   git_public_content="$(cat public/.git)"
 
