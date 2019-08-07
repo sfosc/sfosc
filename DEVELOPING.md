@@ -31,15 +31,15 @@ If you get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-featur
 then you'll need to follow the instructions linked to install the extended version.
 Keep in mind, if you have already installed a local hugo (non-extended) version you may need to uninstall it to avoid conflicts.
 
-We're currently using hugo v0.55.6/extended, you can find binaries on [the v0.55.6 release page](https://github.com/gohugoio/hugo/releases/tag/v0.55.6).
+We're currently using hugo v0.56.3/extended, you can find binaries on [the v0.56.3 release page](https://github.com/gohugoio/hugo/releases/tag/v0.56.3).
 Here you should select a `hugo_extended_` prefixed download built for your OS and make sure the binary is installed in one of your $PATH directories.
-In my case I downloaded `hugo_extended_0.55.6_Linux-64bit.tar.gz` and extracted the `hugo` binary to `~/.local/bin/hugo`.
+In my case I downloaded `hugo_extended_0.56.3_Linux-64bit.tar.gz` and extracted the `hugo` binary to `~/.local/bin/hugo`.
 
 ```sh
 $ which hugo
 /home/username/.local/bin/hugo
 $ hugo version
-Hugo Static Site Generator v0.55.6-A5D4C82D2/extended linux/amd64 BuildDate: 2019-05-18T08:08:34Z
+Hugo Static Site Generator v0.56.3-F637A1EA/extended linux/amd64 BuildDate: 2019-07-31T12:54:46Z
 ```
 
 ### Node and npm packages
@@ -79,14 +79,10 @@ Or alternatively using a docker equivalent:
 docker run --rm -ti \
 	-p 1313:1313 \
 	-v $(pwd):/src \
-	-w /src \
-	-u $(id -u):$(id -g) \
-	cibuilds/hugo:0.55.6 hugo server --bind 0.0.0.0
+	klakegg/hugo:0.56.3-ext-alpine server
 ```
 
 This will set up a preview at http://localhost:1313/ with automatic reloading on changes.
-
-_Note: the `cibuilds/hugo` docker image does not include node, so it won't work for a final build._
 
 ## Deployments to `sfosc.org`
 
