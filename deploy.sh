@@ -33,6 +33,9 @@ if [ -z "$FORCE_UPDATE" ] && [ ! -z "$dirty_files" ]; then
   exit 1
 fi
 
+# Ensure we have any required submodules.
+git submodule update --init --recursive || exit 1
+
 # Force checkout the remote public master branch (detached).
 git submodule update --init --remote --checkout public || exit 1
 
