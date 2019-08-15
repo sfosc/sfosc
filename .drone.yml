@@ -23,5 +23,7 @@ steps:
       - ./deploy.sh
 
 trigger:
+  branch:
+    - master
   event:
     - push

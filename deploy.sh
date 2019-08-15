@@ -78,5 +78,5 @@ else
   # Push public repo from the detached head.
   git add --all
   git commit -m "Rebuilding site `date`"
-  git push --dry-run origin HEAD:master
+  git push origin HEAD:master
 fi
