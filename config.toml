@@ -1,6 +1,6 @@
 baseURL = "https://sfosc.org/"
 languageCode = "en-us"
-title = "Sustainable Free and Open Source Communities"
+title = "SFOSC"
 theme = ["docsy"]
 
 enableRobotsTXT = true
