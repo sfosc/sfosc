@@ -5,8 +5,66 @@ You might be interested in these procedures if you are interested in development
 
 Brief overview:
 - Static page generator: [hugo](https://gohugo.io/)
+- Hugo theme: [google/docsy](https://github.com/google/docsy)
 - Hosting: [GitHub pages](https://pages.github.com/)
 - Build automation: [drone.io](https://drone.io/)
+
+## Dependencies
+
+### Submodules
+
+Aside from hugo, we're using the [google/docsy](https://github.com/google/docsy) theme.
+
+The theme is referenced as a git submodule. So you can make sure you have the correct version using:
+
+```sh
+# Update our submodules recursively, initializing as necessary.
+git submodule update --init --recursive
+```
+
+We are using recursive here as docsy uses git submodules for tracking further dependencies (currently bootstrap and font awesome).
+
+### Hugo extended
+
+For hugo, we need an extended version that can handle sass processing.
+If you get [this error](https://gohugo.io/troubleshooting/faq/#i-get-this-feature-is-not-available-in-your-current-hugo-version)
+then you'll need to follow the instructions linked to install the extended version.
+Keep in mind, if you have already installed a local hugo (non-extended) version you may need to uninstall it to avoid conflicts.
+
+We're currently using hugo v0.56.3/extended, you can find binaries on [the v0.56.3 release page](https://github.com/gohugoio/hugo/releases/tag/v0.56.3).
+Here you should select a `hugo_extended_` prefixed download built for your OS and make sure the binary is installed in one of your $PATH directories.
+In my case I downloaded `hugo_extended_0.56.3_Linux-64bit.tar.gz` and extracted the `hugo` binary to `~/.local/bin/hugo`.
+
+```sh
+$ which hugo
+/home/username/.local/bin/hugo
+$ hugo version
+Hugo Static Site Generator v0.56.3-F637A1EA/extended linux/amd64 BuildDate: 2019-07-31T12:54:46Z
+```
+
+### Node and npm packages
+
+When creating production builds of the static website, docsy uses [PostCSS](https://gohugo.io/hugo-pipes/postcss/).
+As well as `autoprefixer`. Both of which should be installed from npm packages and require node to run.
+
+You _may be able to_ avoid installing this, because it's not required for `hugo server` style development previews.
+But for a final build using `hugo` or `./deploy.sh` you will need them.
+
+Make sure you have node and npm installed and run `npm install`.
+Note: as we've committed a `package-lock.json` file we recommend using npm over yarn.
+
+### Git
+
+You probably have git on your local machine, as previous steps require this.
+But it's worth noting when you're using docker containers or CI builds, git is a requirement.
+
+It's used for the hugo `enableGitInfo = true` setting.
+Which the docsy theme uses to add "last modified" footers based on the git history of the content files.
+
+## Quick Tips using the docsy theme
+
+ - Each header section can support a background color, if you look for block/cover, and then notice that I chose "blue."
+ - Each folder under [content/en/](content/en) can also support a featured-background.jpg. If you add it, it will magically show up. I removed them all (breakfast cereal?) in favor of a clean, blue background.
 
 ## Locally testing changes
 
@@ -21,7 +79,7 @@ Or alternatively using a docker equivalent:
 docker run --rm -ti \
 	-p 1313:1313 \
 	-v $(pwd):/src \
-	klakegg/hugo:0.55.6 server
+	klakegg/hugo:0.56.3-ext-alpine server
 ```
 
 This will set up a preview at http://localhost:1313/ with automatic reloading on changes.

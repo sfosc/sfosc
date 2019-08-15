@@ -1,0 +1,9 @@
+{
+  "name": "sfosc-hugo-dependencies",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^9.6.1",
+    "postcss-cli": "^6.1.3"
+  }
+}

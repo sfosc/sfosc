@@ -98,8 +98,9 @@ Please also:
 
 - **Try that each line of the commit body is not longer than 72 characters**
 
-# How to Conduct Yourself when Contributing
+# How to Conduct Yourself
+
 Please make sure that while contributing you follow our
 [Contributor Covenant Code of Conduct](https://github.com/sfosc/sfosc/blob/master/CODE_OF_CONDUCT.md)!
 
-# Happy Hacking! - :heart: Your SFOSC Team
+Happy Hacking! - :heart: Your SFOSC Team

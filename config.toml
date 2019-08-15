@@ -1,7 +1,29 @@
 baseURL = "https://sfosc.org/"
 languageCode = "en-us"
-title = "Sustainable Free and Open Source Communities"
-theme = "hugo-theme-learn"
+title = "SFOSC"
+theme = ["docsy"]
+
+enableRobotsTXT = true
+enableGitInfo = true
+
+# Language settings
+contentDir = "content/en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableMissingTranslationPlaceholders = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+# Highlighting config
+pygmentsCodeFences = true
+pygmentsUseClasses = false
+pygmentsUseClassic = false
+
+# pygmentsOptions = "linenos=table"
+# See https://help.farbox.com/pygments.html
+pygmentsStyle = "tango"
+
+# First one is picked as the Twitter card image if not set on page.
+images = ["static/logo.png"]
 
 [params]
 author = "The Sustainable Free and Open Source Community"
@@ -9,7 +31,86 @@ description = "Guidelines for building sustainable free and open source communit
 disableBreadcrumb = false
 themeVariant = "sfosc"
 editURL = "https://github.com/sfosc/sfosc/edit/master/content/"
+copyright = "Adam Jacob and the SFOSC Contributors"
+github_repo = "https://github.com/sfosc/sfosc"
+github_project_repo = "https://github.com/sfosc/sfosc" # related project repository
 
-[outputs]
-home = [ "HTML", "RSS", "JSON" ]
+# Google Custom Search Engine ID. Remove or comment out to disable search.
+# gcs_engine_id = "010503388974132107851:lgyodfcxl6e"
 
+# privacy_policy = "https://policies.google.com/privacy"
+# Menu title if your navbar has a versions selector to access old versions of your site.
+# This menu appears only if you have at least one [params.versions] set.
+# version_menu = "Releases"
+
+# Specify a value here if your content directory is not in your repo's root directory
+# github_subdir = ""
+
+#[outputs]
+#home = [ "HTML", "RSS", "JSON" ]
+
+# Configure how URLs look like per section.
+[permalinks]
+blog = "/:section/:year/:month/:day/:slug/"
+
+# BlackFriday markdown parser: https://github.com/russross/blackfriday
+[blackfriday]
+plainIDAnchors = true
+hrefTargetBlank = true
+angledQuotes = false
+latexDashes = true
+
+# Image processing configuration.
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[services]
+[services.googleAnalytics]
+# Comment out the next line to disable GA tracking. Also disables the feature described in [params.ui.feedback].
+# id = "UA-00000000-0"
+
+# User interface configuration
+[params.ui]
+sidebar_menu_compact = false
+breadcrumb_disable = false
+sidebar_search_disable = false
+navbar_logo = true
+
+# Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
+# This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
+# If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
+# add "hide_feedback: true" to the page's front matter.
+[params.ui.feedback]
+enable = true
+
+# The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
+yes = 'Glad to hear it! Please <a href="https://github.com/sfosc/sfosc/issues/new">tell us how we can improve</a>.'
+no = 'Sorry to hear that. Please <a href="https://github.com/sfosc/sfosc/issues/new">tell us how we can improve</a>.'
+
+[params.links]
+
+# End user relevant links. These will show up on left side of footer and in the community page if you have one.
+[[params.links.user]]
+	name = "Contact"
+	url = "mailto:adam@stalecoffee.org"
+	icon = "fa fa-envelope"
+        desc = "Contact the current leader, Adam Jacob"
+[[params.links.user]]
+	name ="Twitter"
+	url = "https://twitter.com/sfosc"
+	icon = "fab fa-twitter"
+        desc = "Follow us on Twitter to get the latest news!"
+
+# Developer relevant links: show up on right side of footer and in the community page
+[[params.links.developer]]
+	name = "GitHub"
+	url = "https://github.com/sfosc/sfosc"
+	icon = "fab fa-github"
+        desc = "Development takes place here!"
+[[params.links.developer]]
+	name = "Discord"
+	url = "https://discord.gg/nz5NC9q"
+	icon = "fab fa-discord"
+        desc = "Chat with other project developers"

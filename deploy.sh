@@ -20,6 +20,14 @@ if [ -z "$(which git)" ]; then
 	echo "Git must be installed and available in \$PATH"
 	exit 1
 fi
+if [ -z "$(which node)" ]; then
+  echo "Node must be installed and available in \$PATH"
+  exit 1
+fi
+if [ -z "$(which npm)" ]; then
+  echo "NPM must be installed and available in \$PATH"
+  exit 1
+fi
 
 # Make sure we're in the project root.
 toplevel="$(git -C "$(dirname "$0")" rev-parse --show-toplevel)"
@@ -32,6 +40,9 @@ if [ -z "$FORCE_UPDATE" ] && [ ! -z "$dirty_files" ]; then
   echo "$dirty_files"
   exit 1
 fi
+
+# Ensure we have any required submodules.
+git submodule update --init --recursive || exit 1
 
 # Force checkout the remote public master branch (detached).
 git submodule update --init --remote --checkout public || exit 1
@@ -46,8 +57,17 @@ echo "Target SHA = $target_sha"
 if [ -z "$FORCE_UPDATE" ] && [ ! -z "$target_sha" ] && [ "$source_sha" == "$target_sha" ]; then
   echo "Source and last built commit are the same. No need to update."
 else
+  # Make sure we have the PostCSS and autoprefix modules defined in our package-lock.json.
+  npm install
+
+  # Load the .git file contents into memory, as hugo's --cleanDestinationDir will break the submodule.
+  git_public_content="$(cat public/.git)"
+
   # Build the project into the submodule.
-  hugo -s . -d ./public --config config.toml
+  hugo -s . -d ./public --config config.toml --cleanDestinationDir
+
+  # Restore the .git file.
+  echo "$git_public_content" > public/.git
 
   # Track the SHA we've built from.
   echo "$(git rev-parse --verify HEAD)" > public/.HEAD
