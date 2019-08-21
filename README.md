@@ -5,7 +5,7 @@
 [![SourceCred prototype](https://badgen.net/badge/SourceCred/prototype)](https://sfosc.org/sourcecred/prototype/)
 [![Greater Good Affirmation](https://good-labs.github.io/greater-good-affirmation/assets/images/badge.svg)](https://good-labs.github.io/greater-good-affirmation)
 
-![SFOSC](static/logo.png)
+![SFOSC](assets/logo.png)
 
 Welcome to the Sustainable Free and Open Source Community!
 This is the place to contribute content to the website, and collaborate
