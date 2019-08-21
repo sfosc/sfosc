@@ -1,7 +1,7 @@
 ---
 title: "The Sustainable Free and Open Source Communities Book"
 linkTitle: "The Book"
-weight: 1
+weight: 2
 description: >
   The SFOSC Book
 ---

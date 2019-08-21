@@ -1,7 +1,7 @@
 ---
 title: "Social Contracts"
 linkTitle: "Social Contracts"
-weight: 2
+weight: 3
 description: >
   Ready to use social contracts.
 ---
