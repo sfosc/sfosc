@@ -128,3 +128,4 @@ source community is just, and thus sustainable. From there, we can collect
 a set of principles that all sustainable free and open source communities
 should abide by.
 
+{{% nextprev %}}

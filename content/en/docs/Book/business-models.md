@@ -426,3 +426,4 @@ from the creation of proprietary software - where "bend" implies that we may,
 in fact, not decide to completely remove that option, but instead to ensure the
 incentives for that option are bad (as the free software product model does).
 
+{{% nextprev %}}

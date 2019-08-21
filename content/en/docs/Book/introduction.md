@@ -71,3 +71,4 @@ I used to arrive at the "Principles". I look forward to refining these
 principles with you, and using them to develop clear social contracts. I'm
 excited to explore how we can build sustainable communities together.
 
+{{% nextprev %}}

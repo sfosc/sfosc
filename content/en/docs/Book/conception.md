@@ -67,3 +67,4 @@ community, my paying customers. As a result, we created a user community
 - which, while it may be sustainable as a software business, is not sustainable
 as a community resource.
 
+{{% nextprev %}}

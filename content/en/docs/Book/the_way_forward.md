@@ -37,3 +37,5 @@ you'll join me.
 
 For next steps: explore the [principles](/docs/principles/), [business
 models](/docs/business-models/)
+
+{{% nextprev %}}
