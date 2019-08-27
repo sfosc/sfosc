@@ -1,0 +1,6 @@
+<ul class="list-unstyled d-flex justify-content-between align-items-center mb-0 pt-5">
+  <li>
+    <a {{if .Page.NextInSection}}href="{{.Page.NextInSection.RelPermalink}}"{{end}} class="btn btn-primary {{if not .Page.NextInSection}} disabled{{end}}"><span class="mr-1">←</span> {{ T "ui_pager_prev" }}</a>
+  </li>
+  <a {{if .Page.PrevInSection}}href="{{.Page.PrevInSection.RelPermalink}}"{{end}} class="btn btn-primary {{if not .Page.PrevInSection}} disabled{{end}}">{{ T "ui_pager_next" }} <span class="ml-1">→</span></a>
+</ul>
