@@ -33,7 +33,7 @@ a business around it, you might be interested in our [explanation of the
 various open source business models](/docs/business-models/). This
 includes why some create more sustainable communities than others.
 
-Finally, you might [want to read the book](/docs/books/) on the
+Finally, you might [want to read the book](/docs/book/) on the
 thought process and research that went in to the creation of SFOSC. It provides
 a detailed background of the initial motivations behind the community, and the
 framework by which the principles were created.
