@@ -1,7 +1,7 @@
 ---
 title: "New Releases"
 linkTitle: "Releases"
-weight: 20
+weight: 30
 ---
 
 

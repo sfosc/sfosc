@@ -1,5 +1,5 @@
 ---
 title: "News About SFOSC"
 linkTitle: "News"
-weight: 20
+weight: 10
 ---
