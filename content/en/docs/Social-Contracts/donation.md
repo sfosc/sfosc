@@ -131,5 +131,5 @@ available to all members of the community equally.
 ### Donations
 
 This project is directly sustained through a donation model. Donations 
-should can be made through [DONATION SYSTEM]. Further details can be
+can be made through [DONATION SYSTEM]. Further details can be
 found in the [DONATION POLICY].
