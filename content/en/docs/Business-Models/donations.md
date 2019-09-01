@@ -1,6 +1,6 @@
 ---
 title: "Donations"
-linkTitle: "Dontations"
+linkTitle: "Donations"
 date: 2018-12-06T12:27:40-08:00
 description: >
   When a system of donations is set up to sustain a project.
