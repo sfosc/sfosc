@@ -98,10 +98,10 @@ no = 'Sorry to hear that. Please <a href="https://github.com/sfosc/sfosc/issues/
 	icon = "fa fa-envelope"
         desc = "Contact the current leader, Adam Jacob"
 [[params.links.user]]
-	name ="Twitter"
-	url = "https://twitter.com/sfosc"
-	icon = "fab fa-twitter"
-        desc = "Follow us on Twitter to get the latest news!"
+	name ="Medium"
+	url = "https://medium.com/sustainable-free-and-open-source-communities"
+	icon = "fab fa-medium"
+        desc = "Find SFOSC posts on Medium"
 
 # Developer relevant links: show up on right side of footer and in the community page
 [[params.links.developer]]
