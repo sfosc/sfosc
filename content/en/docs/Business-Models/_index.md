@@ -1,7 +1,7 @@
 ---
 title: "Business Models"
 linkTitle: "Business Models"
-weight: 3
+weight: 4
 date: 2018-11-25
 description: >
   Business models defined by the SFOSC

@@ -2,7 +2,7 @@
 title: "Principles"
 linkTitle: "Principles"
 date: 2018-11-28T15:40:54-08:00
-weight: 4
+weight: 1
 aliases:
   - /principles/
 description: >
