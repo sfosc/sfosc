@@ -77,6 +77,7 @@ sidebar_menu_compact = false
 breadcrumb_disable = false
 sidebar_search_disable = false
 navbar_logo = true
+footer_about_disable = true
 
 # Adds a H2 section titled "Feedback" to the bottom of each doc. The responses are sent to Google Analytics as events.
 # This feature depends on [services.googleAnalytics] and will be disabled if "services.googleAnalytics.id" is not set.
