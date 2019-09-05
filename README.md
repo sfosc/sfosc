@@ -11,6 +11,7 @@ Welcome to the Sustainable Free and Open Source Community!
 This is the place to contribute content to the website, and collaborate
 on writing new social contracts, documenting business models, and more.
 
+**Find out how you can help us on the [how to help file](https://github.com/sfosc/sfosc/blob/master/HOW_TO_HELP.md).**
 The `master` branch is visible on https://sfosc.org - it's easier to read that way.
 
 To contribute, send a pull request. By doing so, you agree to have your content
