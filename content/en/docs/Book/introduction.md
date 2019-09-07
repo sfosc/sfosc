@@ -14,13 +14,21 @@ AWS, Google and Microsoft. We are asking ourselves if ethics have a place in
 our governance and licensing models. We are questioning the fundamental values
 and ideas of the movement itself.
 
-Since the term "Open Source" was first adopted in 1997, it has become the
-dominant software development model around the world. Back then, it was
-a cutting-edge idea - participating in open source was a radical act. Simply
-participating in it required a philosophical background. Today, you can
-actively participate in Open Source without any background at all in its
-philosophy. Open Source is in the water for the new generation of software
-developers.
+The term “Open Source” was first adopted in 1997. At the time, it was common
+practice for software to be distributed in binary/compiled form with
+restrictive licensing and no access to the source code. Meanwhile, for over a
+decade, liberal licenses had been used for software developed at universities
+for fostering collaboration. The underlying philosophy behind these licenses
+was to foster collaborative communities where a single institution can not
+limit, or impose restrictions, on the collaboration. The late 1990s and early
+2000s saw a significant increase in the adoption of this philosophy for
+software development, and a corresponding increase in licensing of software
+under such liberal licenses.
+
+Since then, Open Source has become the dominant software development model
+around the world. Today, you can actively participate in Open Source without
+any background at all in its philosophy. Open Source is in the water for the
+new generation of software developers.
 
 Along with the rise in open source development, the number of open source
 companies has also skyrocketed. Consulting companies, service providers,
