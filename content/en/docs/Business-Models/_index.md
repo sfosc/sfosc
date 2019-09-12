@@ -5,6 +5,8 @@ weight: 4
 date: 2018-11-25
 description: >
   Business models defined by the SFOSC
+aliases: 
+  - /business-models/
 ---
 
 {{% pageinfo %}}
