@@ -5,14 +5,14 @@ a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 It should be attributed to "Adam Jacob and the SFOSC Contributors", and if it is used
 on a webpage, linked back to https://sfosc.org.
 
-The theme used for the website is covered under the MIT license found in
-themes/hugo-theme-learn/LICENSE.md.
+The theme used for the website is covered under the Apache license found in
+themes/docsy/LICENSE.md.
 
 Any other content in this repository is available under the MIT License:
 
 The MIT License (MIT)
 
-Copyright (c) 2018 Adam Jacob and the SFOSC Contributors
+Copyright (c) 2018-2019 Adam Jacob and the SFOSC Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

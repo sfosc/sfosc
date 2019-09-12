@@ -1,6 +1,15 @@
+---
+title: "Donation based Social Contract"
+layout: "contract"
+menuTitle: "Donation"
+date: 2018-11-29T12:13:32-08:00
+description: >
+   A donation based social contract.
+---
+
 ## Introduction
 
-This document describe the social contract for the community around a piece of
+This document describes the social contract for the community around a piece of
 open source software ("the software"). It lays out the moral and ethical rules
 the community agrees to in order to ensure a long, healthy, sustainable life
 for the software.
@@ -44,16 +53,11 @@ We do this because:
 ### Code of Conduct
 
 To ensure that all people are welcome, treated fairly and safely, this
-community has a code of conduct, published at [CODE OF CONDUCT](https://github.com/sfosc/sfosc/blob/master/CODE_OF_CONDUCT.md). It applies equally to
+community has a code of conduct, published at [CODE OF CONDUCT]. It applies equally to
 all members of the community, both on-line and in person. Membership and participation
 in the community requires following the Code of Conduct.
 
 ### Membership
-
-Membership is **not a requirement** for participating in the community.
-Members may be consulted about governance of the community. For example through votes.
-The [CONTRIBUTING GUIDELINES](https://github.com/sfosc/sfosc/blob/master/CONTRIBUTING.md)
-explain several ways you can contribute regardless of membership.
 
 Membership in the community is broad based, available to anyone who is 
 participating in any fashion. Requirements for membership involve a minimal
@@ -61,7 +65,7 @@ amount of verification of identity, and proof of engagement with the community.
 Membership consists solely of individuals - there are no corporate community
 members.
 
-Guidelines for membership can be found at [MEMBERSHIP GUIDELINES](https://github.com/sfosc/sfosc/blob/master/MEMBERSHIP.md).
+Guidelines for membership can be found at [MEMBERSHIP GUIDELINES].
 
 ### Voting
 
@@ -69,13 +73,14 @@ Periodically, the membership may be requested to vote in elections, or on a refe
 on an important issue. Each member is entitled to a single vote, and all votes count
 equally.
 
-Guidelines for voting can be found in [VOTING GUIDELINES](https://github.com/sfosc/sfosc/blob/master/VOTING.md).
+This community uses [VOTING SYSTEM] for voting, and guidelines for voting can
+be found at [VOTING GUIDELINES].
 
 ### Leadership
 
 Leadership in the community is based on a strong executive model. The Project
 Leader will be elected by a simple majority vote according to the voting
-guidelines. The Project Leader will serve for 1 year, at the end of which a new 
+guidelines. The Project Leader will serve for [TERM], at the end of which a new 
 election for Project Leader will be held.
 
 The Project Leader has broad authority to manage the project as they see fit, to
@@ -86,34 +91,34 @@ vote of the membership.
 A new election can be held for the Project Leader at any time, regardless of
 term, based on a simple majority vote of the membership.
 
-The full set of guidelines for the Project can be found at [PROJECT RULES](https://github.com/sfosc/sfosc/blob/master/RULES.md).
+The full set of guidelines for the Project can be found at [PROJECT RULES].
 
 ## Licensing, Copyrights, Patents, and Trademarks
 
 ### Software License
 
 All software produced by the community will be published under the [SOFTWARE
-LICENSE](https://github.com/sfosc/sfosc/blob/master/LICENSE.md). All contributors to the software agree to publish their work under
+LICENSE]. All contributors to the software agree to publish their work under
 this license, and to have it included in any distributions or derivatives
 allowed under the same terms.
 
 ### Copyrights
 
 All copyrights remain the property of the original copyright holder, under the
-terms of the [SOFTWARE LICENSE](https://github.com/sfosc/sfosc/blob/master/LICENSE.md).
+terms of the [SOFTWARE LICENSE].
 
 ### Patents
 
 Any patents included in the software must be made available under the same
-terms as the [SOFTWARE LICENSE](https://github.com/sfosc/sfosc/blob/master/LICENSE.md).
+terms as the [SOFTWARE LICENSE].
 
 ### Trademarks
 
 Any trademarks that may exist, relating to the software directly, are the
 ethical property of the community itself. Their use in the software is made
-available under the same terms as the [SOFTWARE LICENSE](https://github.com/sfosc/sfosc/blob/master/LICENSE.md).
+available under the same terms as the [SOFTWARE LICENSE].
 
-Further details can be found in the [TRADEMARK POLICY](https://github.com/sfosc/sfosc/blob/master/TRADEMARK.md).
+Further details can be found in the [TRADEMARK POLICY].
 
 ## Economic Sustainability
 
@@ -125,6 +130,6 @@ available to all members of the community equally.
 
 ### Donations
 
-This project will be sustained through a donation model. Currently the
-project has no expenses, so no system of donations is yet available.
-
+This project is directly sustained through a donation model. Donations 
+can be made through [DONATION SYSTEM]. Further details can be
+found in the [DONATION POLICY].
