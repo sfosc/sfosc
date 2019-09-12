@@ -2,6 +2,8 @@
 title: "The Sustainable Free and Open Source Communities Book"
 linkTitle: "The Book"
 weight: 2
+aliases:
+  - /sfosc-book/
 description: >
   The SFOSC Book
 ---
