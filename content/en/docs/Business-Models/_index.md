@@ -14,7 +14,7 @@ These pages include business models for open source.
 {{% /pageinfo %}}
 
 This section contains an overview of the various open source business models, with
-examples of companies that use them. We evaluate each in the context of wether it
+examples of companies that use them. We evaluate each in the context of whether it
 can be used to build a Sustainable Free and Open Source Community, according to
 the [Principles](/docs/principles/).
 
