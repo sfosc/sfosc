@@ -2,6 +2,8 @@
 title: "Tight Open Core"
 linkTitle: "Tight Open Core"
 date: 2018-12-06T14:37:03-08:00
+aliases:
+  - /business-models/tight-open-core/
 description: >
   Software has primary functionality covered under an open source license (the core) but has direct (often critical) features that are only available under a proprietary license.
 ---
