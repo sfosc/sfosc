@@ -9,7 +9,7 @@
 
 Welcome to the Sustainable Free and Open Source Community!
 This is the place to contribute content to the website, and collaborate
-on writing new social contracts, documenting business models, and more.
+on writing new social contracts, documenting business models, and also you can get ideas for your project from here.
 
 The `master` branch is visible on https://sfosc.org - it's easier to read that way.
 
@@ -24,13 +24,13 @@ means you get to vote for the project leader), add yourself to the [membership f
 If you want to propose changes, or new directions for the project, start or join
 a thread in an issue.
 
-## Sponsors
+## Our Sponsors
 
 Thanks to **[@adamhjk](https://github.com/adamhjk)** for sponsoring the `sfosc.org` domain.
 
-## Contributors
+## Contributors of the Repository
 
-Many thanks to the people who have contributed to this repository.
+Many thanks to the people who have contributed to this repository.Once again thanks for the people for their kind and generous support.
 
 ![sfosc/sfosc contributors](https://sfosc.org/sourcecred/widgets/sfosc-sfosc-contributors.svg)
 
