@@ -30,7 +30,7 @@ Thanks to **[@adamhjk](https://github.com/adamhjk)** for sponsoring the `sfosc.o
 
 ## Contributors
 
-Many thanks to the people who have contributed to this repository.
+Many thanks to all the people who have contributed to this repository.
 
 ![sfosc/sfosc contributors](https://sfosc.org/sourcecred/widgets/sfosc-sfosc-contributors.svg)
 
